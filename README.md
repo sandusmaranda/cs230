@@ -1,4 +1,4 @@
-# Wellesley's CS230
+# Wellesley's CS230 
 
 **Links:**
 * Adapted from [this website](https://github.com/kazemnejad/jekyll-course-website-template)
