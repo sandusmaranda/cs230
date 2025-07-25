@@ -1,12 +1,8 @@
 instructors:
-  - name: Yaniv Yacoby
-    pronouns: he/they
-    profile_pic: https://yanivyacoby.github.io/assets/img/prof_pic.png
-    webpage: https://yanivyacoby.github.io/
-  - name: Sara Melnick
+  - name: Smaranda Sandu
     pronouns: she/her
-    profile_pic: https://wellesley-college.transforms.svdcdn.com/production/people/Melnick-Headshot.jpg?w=500&h=500&q=90&auto=format&fit=min&dm=1719869183&s=bac33e0a3c981c983b72ea50fcd76454
-    webpage: https://www.wellesley.edu/people/sara-melnick
+    profile_pic: https://wellesley-college.transforms.svdcdn.com/production/people/Sandu_Smaranda-1.jpg?w=500&h=500&q=90&auto=format&fit=min&crop=focalpoint&fp-x=0.4516&fp-y=0.4308&dm=1719246777&s=fa64695e8687512fb974311e16b80a24a
+    webpage: https://www.wellesley.edu/people/ana-smaranda-sandu
 
 teaching_assistants:
   - name: Lilymoon Whalen
