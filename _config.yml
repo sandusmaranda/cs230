@@ -6,7 +6,7 @@ course_name: "CS230: Data Structures in Java"
 course_semester: "Fall 2025"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://wellesley-cs230.github.io/" # the base hostname & protocol for your site
+url: "https://sandusmaranda.github.io/cs230" # the base hostname & protocol for your site
 
 schoolname: "Wellesley College"
 schoolurl: "https://www.wellesley.edu/"
