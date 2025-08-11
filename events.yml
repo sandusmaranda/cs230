@@ -65,8 +65,8 @@ events:
     day: "16"
     day-of-week: "Tuesday"
     topic: "Arrays and Arrays of Objects"
-    due:
-    released:
+    due: "Homework 2 by **10pm**"
+    released: "[Homework 3](/hw3)"
     pre-class:
 
   - month: "September"
@@ -89,8 +89,8 @@ events:
     day: "23"
     day-of-week: "Tuesday"
     topic: "Inheritance"
-    due:
-    released:
+    due: "Homework 3 by **10pm**"
+    released: "[Homework 4](/hw4)"
     pre-class:
 
   - month: "September"
@@ -113,7 +113,7 @@ events:
     day: "30"
     day-of-week: "Tuesday"
     topic: "Interfaces and IO"
-    due:
+    due: "Homework 4 by **10pm**"
     released:
     pre-class:
 
@@ -144,7 +144,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Stacks"
     due:
-    released:
+    released: "[Homework 5](/hw5)"
     pre-class:
 
   - month: "October"
@@ -191,15 +191,15 @@ events:
   - month: "October"
     day: "21"
     day-of-week: "Tuesday"
-    topic: "Sorting"
-    due:
-    released:
+    topic: "Binary Search and Queues"
+    due: "Homework 5 by **10pm**"
+    released: "[Homework 6](/hw6)"
     pre-class:
 
   - month: "October"
     day: "22"
     day-of-week: "Wednesday"
-    topic: "Lab 8: Algorithm Analysis and Sorting"
+    topic: "Lab 8: Queues"
     due:
     released:
     pre-class:
@@ -207,7 +207,7 @@ events:
   - month: "October"
     day: "24"
     day-of-week: "Friday"
-    topic: "Binary Search and Queues"
+    topic: "Sorting"
     due:
     released:
     pre-class:
@@ -224,7 +224,7 @@ events:
   - month: "October"
     day: "29"
     day-of-week: "Wednesday"
-    topic: "Lab 9: Queues"
+    topic: "Lab 9: Algorithm Analysis and Sorting"
     due:
     released:
     pre-class:
@@ -241,8 +241,8 @@ events:
     day: "04"
     day-of-week: "Tuesday"
     topic: "Hash Tables"
-    due:
-    released:
+    due: "Homework 6 by **10pm**"
+    released: "[Homework 7](/hw7)"
     pre-class:
 
   - month: "November"
@@ -265,8 +265,8 @@ events:
     day: "11"
     day-of-week: "Tuesday"
     topic: "Trees"
-    due:
-    released:
+    due: "Homework 7 by **10pm**"
+    released: "[Homework 8](/hw8)"
     pre-class:
 
   - month: "November"
@@ -289,8 +289,8 @@ events:
     day: "18"
     day-of-week: "Tuesday"
     topic: "Depth First Search"
-    due:
-    released:
+    due: "Homework 8 by **10pm**"
+    released: "[Homework 9](/hw9)"
     pre-class:
 
   - month: "November"
@@ -314,7 +314,7 @@ events:
     day: "25"
     day-of-week: "Tuesday"
     topic: "Breadth First Search"
-    due:
+    due: "Homework 9 by **10pm**"
     released:
     pre-class:
 
@@ -341,7 +341,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Breadth-First Search"
     due:
-    released:
+    released: "[Homework 10](/hw10)"
     pre-class:
 
   - month: "December"
@@ -364,7 +364,7 @@ events:
     day: "09"
     day-of-week: "Tuesday"
     topic: TBD
-    due:
+    due: "Homework 10 by **10pm**"
     released:
     pre-class:
 
