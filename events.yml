@@ -56,7 +56,7 @@ events:
   - month: "September"
     day: "12"
     day-of-week: "Friday"
-    topic: "Arrays and Arrays of Objects"
+    topic: "Objects"
     due:
     released:
     pre-class:
@@ -80,7 +80,7 @@ events:
   - month: "September"
     day: "19"
     day-of-week: "Friday"
-    topic: "Inheritance"
+    topic: "Arrays and Arrays of Objects"
     due:
     released:
     pre-class:
@@ -88,7 +88,7 @@ events:
   - month: "September"
     day: "23"
     day-of-week: "Tuesday"
-    topic: "Polymorphism"
+    topic: "Inheritance"
     due:
     released:
     pre-class:
@@ -104,7 +104,7 @@ events:
   - month: "September"
     day: "26"
     day-of-week: "Friday"
-    topic: "Interfaces"
+    topic: "Polymorphism"
     due:
     released:
     pre-class:
@@ -112,7 +112,7 @@ events:
   - month: "September"
     day: "30"
     day-of-week: "Tuesday"
-    topic: "Exceptions and IO"
+    topic: "Interfaces and IO"
     due:
     released:
     pre-class:
@@ -131,7 +131,12 @@ events:
     topic:
     due:
     released:
-    pre-class:
+    pre-class: |
+      * Review [this list of topics](https://docs.google.com/document/d/1B10UeBPa-w7O9VGIwkFc31jFtY_7LnJP5rOAzRT1-T0/edit?usp=sharing)
+      * Read the [Midterm instructions](https://docs.google.com/document/d/1FVImltjXAG1jvq1PE8JnjXngZVvkUfOii8SjVJ10mv0/edit?usp=sharing)
+      * Solve [these practice problems](https://docs.google.com/document/d/1N84sG7znr6krxj7KeLMbubMRUHbmX0v8vAeu6CaCTzc/edit?usp=sharing)
+      * Compare your solutions with the [staff's solutions](https://docs.google.com/document/d/19JKCPG0FyhLUUNezbeI5S446lgb-2hmiNRd3-h8C2Z8/edit?usp=sharing)
+      * Prepare a one page (single sided) note sheet you can bring to the exam   
     exam: "Midterm (everything up to and including Inheritance)"
 
   - month: "October"
@@ -153,7 +158,7 @@ events:
   - month: "October"
     day: "10"
     day-of-week: "Friday"
-    topic: "Stacks (continued)"
+    topic: "Linear Nodes and Linked Stacks"
     due:
     released:
     pre-class:
@@ -170,7 +175,7 @@ events:
   - month: "October"
     day: "15"
     day-of-week: "Wednesday"
-    topic:
+    topic: 
     due:
     released:
     pre-class:
