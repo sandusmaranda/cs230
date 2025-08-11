@@ -1,16 +1,17 @@
 events:
   - month: "September"
     day: "01"
-    day-of-week: "Monday"
+    day-of-week: "Tuesday"
     special: "Labor Day: no classes."
-    topic:
+    topic: "Introduction"
+    slides: "https://drive.google.com/drive/folders/1NDMJvhhn2IqrnnHT01b6sEQ2L6ws2UOn?usp=drive_link"
     due:
     released:
     pre-class:
 
   - month: "September"
     day: "02"
-    day-of-week: "Tuesday"
+    day-of-week: "Wednesday"
     topic: "Lab 1: Starting with BlueJ and Java"
     slides: 
     due:
@@ -21,8 +22,8 @@ events:
 
   - month: "September"
     day: "04"
-    day-of-week: "Thursday"
-    topic: "Introduction"
+    day-of-week: "Friday"
+    topic: "Java Constructs"
     slides: "https://drive.google.com/drive/folders/1NDMJvhhn2IqrnnHT01b6sEQ2L6ws2UOn?usp=drive_link"
     due: 
     released: "[Homework 1](/hw1)"
