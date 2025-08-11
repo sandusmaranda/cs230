@@ -1,9 +1,8 @@
 import datetime
 
-
-CLASS_DAYS = ['Monday', 'Tuesday', 'Thursday']
-DISPLAY_DAYS = ['Monday', 'Tuesday', 'Thursday']
-LECTURE_DAYS = ['Monday', 'Thursday']
+CLASS_DAYS = ['Tuesday', 'Wednesday', 'Friday']
+DISPLAY_DAYS = ['Tuesday', 'Wednesday', 'Friday']
+LECTURE_DAYS = ['Tuesday', 'Friday']
 
 
 # Spring
