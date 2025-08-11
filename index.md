@@ -18,10 +18,11 @@ layout: home
 * Students who did not take CS 111 at Wellesley and who wish to enroll in CS 230 should contact the CS department to take a placement questionnaire.
 
 **Meeting Times and Locations:**
-* Lecture: Mondays and Thursdays, 2:20-3:30pm @ SCI L180
+* Lecture: Tuesdays and Fridays, 9:55-11:10am @ SCI H405
 * Lab:
-  * 2LA: Tuesdays, 1:30-3:20pm @ SCI H402
-  * 2LB: Tuesdays, 3:30-5:20pm @ SCI H402
+  * 1LA: Wednesdays, 8:30-10:20am @ SCI E101
+  * 2LB: Wednesdays, 10:30-12:20pm @ SCI E101
+  * 3LB: Wednesdays, 1:30-3:20pm @ SCI E101
 
 <br/>
 
