@@ -290,7 +290,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Depth First Search"
     due: "Homework 8 by **10pm**"
-    released: "[Homework 9](/hw9)"
+    released: 
     pre-class:
 
   - month: "November"
@@ -314,7 +314,7 @@ events:
     day: "25"
     day-of-week: "Tuesday"
     topic: "Breadth First Search"
-    due: "Homework 9 by **10pm**"
+    due: 
     released:
     pre-class:
 
@@ -341,7 +341,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Breadth-First Search"
     due:
-    released: "[Homework 10](/hw10)"
+    released: "[Homework 9](/hw10)"
     pre-class:
 
   - month: "December"
