@@ -16,6 +16,7 @@ events:
     topic: "Lab 1 : Starting with BlueJ and Java"
     due:
     released:
+    video: "blah"
     pre-class: |
       * Answer the [syllabus quiz](https://docs.google.com/forms/d/e/1FAIpQLSeZHzjGBgvTQs-ddYuiw15vPtWLfigRiewoixkR7XF15O0cfQ/viewform?usp=sf_link)        
       * Read [Chapters 1-2](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing) 
