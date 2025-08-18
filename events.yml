@@ -341,7 +341,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Priority Queues and Heaps"
     due:
-    released: "[Homework 9](/hw10)"
+    released: "[Final Project](/fp)"
     pre-class:
 
   - month: "December"
@@ -355,7 +355,7 @@ events:
   - month: "December"
     day: "05"
     day-of-week: "Friday"
-    topic: "TBD"
+    topic: "Final Project Work"
     due:
     released:
     pre-class:
@@ -364,14 +364,14 @@ events:
     day: "09"
     day-of-week: "Tuesday"
     topic: "Where do we go from here?"
-    due: "Homework 10 by **10pm**"
+    due: 
     released:
     pre-class:
 
   - month: "December"
     day: "10"
     day-of-week: "Wednesday"
-    topic: TBD
+    topic: "Final Project Work"
     due:
     released:
     pre-class:
