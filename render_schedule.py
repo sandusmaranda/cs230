@@ -39,6 +39,7 @@ def main():
             day = event.get('day-of-week', None)
             special = event.get('special', None)
             pre_class = event.get('pre-class', None)
+            video = event.get('video', None)
             topic = event.get('topic', None)
             slides = event.get('slides', None)
             due = event.get('due', None)
@@ -92,6 +93,11 @@ def main():
                         with tags.li():
                             tags.span('Pre-Lab:' if lab else 'Pre-Class:', cls='tag preclass_tag')
                             tags.span(convert_md_to_html_if_multiline(pre_class))
+
+                    if video is not None:
+                        with tags.li():
+                            tags.span('Video:', cls='tag video_tag')
+                            tags.span(convert_md_to_html_if_multiline(video))
                             
                     if due is not None:
                         with tags.li():
