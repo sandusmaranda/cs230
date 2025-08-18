@@ -96,7 +96,7 @@ def main():
 
                     if video is not None:
                         with tags.li():
-                            tags.span('Video:', cls='tag video_tag')
+                            tags.span('Video:', cls='tag preclass_tag')
                             tags.span(convert_md_to_html_if_multiline(video))
                             
                     if due is not None:
