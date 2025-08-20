@@ -22,7 +22,6 @@ layout: home
 * Lab:
   * 1LA: Wednesdays, 8:30-10:20am @ SCI E101
   * 2LB: Wednesdays, 10:30-12:20pm @ SCI E101
-  * 3LB: Wednesdays, 1:30-3:20pm @ SCI E101
 
 <br/>
 
