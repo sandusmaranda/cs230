@@ -7,8 +7,11 @@ events:
     due:
     released: "[Homework 1](/hw1)"
     pre-class: |
-      * Answer the [entry questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSftXR9REyCxAPuCLKJSao-gd-URJY5yzipGvxEuQk6hbb03sA/viewform?usp=dialog) by **5pm on Monday, September 1**.
+      * Answer the [entry questionnaire](https://forms.gle/APQdh9dTJKBQzUfq8) by **5pm on Monday, September 1**.
       * Sign up to Piazza and Gradescope using your Wellesley email
+      * Read [Chapters 1-2](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing) 
+      * Answer the quiz on [Chapter 1](https://docs.google.com/forms/d/e/1FAIpQLSd-n94Dd_0cuMwcROeTUwRSMBprwtNoxufMqr-q-DAS4B5uZg/viewform?usp=sf_link) and [Chapter 2](https://docs.google.com/forms/d/e/1FAIpQLSfAZ-3jgAIaF2Vtqs_Uxut7pA8_AiZ3SYPpFYKqrGSvpxJNSw/viewform?usp=sf_link)
+
 
   - month: "September"
     day: "03"
@@ -17,13 +20,9 @@ events:
     slides: "https://docs.google.com/document/d/1OJhtNtfIo_ZRcAS5tL8LdBUFJUKwQJxkGJmfPCVGObg/edit?usp=sharing"
     due:
     released:
-    video: "blah"
-    pre-class: |
-      * Answer the [syllabus quiz](https://docs.google.com/forms/d/e/1FAIpQLSeZHzjGBgvTQs-ddYuiw15vPtWLfigRiewoixkR7XF15O0cfQ/viewform?usp=sf_link)        
-      * Read [Chapters 1-2](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing) 
-      * Answer the quiz on [Chapter 1](https://docs.google.com/forms/d/e/1FAIpQLSd-n94Dd_0cuMwcROeTUwRSMBprwtNoxufMqr-q-DAS4B5uZg/viewform?usp=sf_link) and [Chapter 2](https://docs.google.com/forms/d/e/1FAIpQLSfAZ-3jgAIaF2Vtqs_Uxut7pA8_AiZ3SYPpFYKqrGSvpxJNSw/viewform?usp=sf_link)
-
-
+    video: 
+    pre-class: 
+    
   - month: "September"
     day: "05"
     day-of-week: "Friday"
@@ -32,9 +31,10 @@ events:
     due:
     released:
     pre-class: |
+      * Answer the [syllabus quiz](https://docs.google.com/forms/d/e/1FAIpQLSeZHzjGBgvTQs-ddYuiw15vPtWLfigRiewoixkR7XF15O0cfQ/viewform?usp=sf_link)        
       * Read [Chapters 3-4](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing) (optional: 3.6-3.7)
       * Answer the quiz on [Chapter 3](https://docs.google.com/forms/d/e/1FAIpQLSeSuKjMNvgS1VwL13MdSS9RrZBc23CXLgwWtbzAG7NVDB4xIg/viewform?usp=sf_link), and [Chapter 4](https://docs.google.com/forms/d/e/1FAIpQLSfi9Ge7Jd0dmVnwQe6LqlK9qFb_Siqi366dNx5i77tKgwKB8g/viewform?usp=sf_link)
-
+    video: "https://drive.google.com/file/d/1B5LgLvmoDWMycK3VqQWzV_Jc7BCo-OZK/view?usp=sharing"
 
   - month: "September"
     day: "09"
