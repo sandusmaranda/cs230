@@ -51,6 +51,7 @@ events:
     day: "10"
     day-of-week: "Wednesday"
     topic:  "Lab 2 : Objects"
+    slides: "https://docs.google.com/document/d/1hDk6oZTOxYIbECOyAySkH1TCWPV0XlwSW1aS0BmGZOY/edit?usp=sharing"
     due:
     released:
     pre-class:
