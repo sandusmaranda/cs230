@@ -14,6 +14,7 @@ events:
     day: "03"
     day-of-week: "Wednesday"
     topic: "Lab 1 : Starting with BlueJ and Java"
+    slides: "https://docs.google.com/document/d/1OJhtNtfIo_ZRcAS5tL8LdBUFJUKwQJxkGJmfPCVGObg/edit?usp=sharing"
     due:
     released:
     video: "blah"
