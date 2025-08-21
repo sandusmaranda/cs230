@@ -15,9 +15,9 @@ layout: default
 * Midterm 1: 20%
 * Midterm 2: 20%
 * Final Project: 20%
-* Class participation: 20%
-  ** attendance, team work, timely submissions of lab work, and respectful engagement: 10%
-  ** lab presentations: 10%
+* Class participation: 20% |
+  * attendance, team work, timely submissions of lab work, and respectful engagement: 10%
+   lab presentations: 10%
 
 There is **no arbitrary limit** on the number of A's, B's, C's etc., and every student will be assigned the grade they earn and deserve according to the grading standards of the college.
 
