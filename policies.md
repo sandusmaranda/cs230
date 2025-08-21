@@ -8,20 +8,28 @@ layout: default
 
 # Grading Policy
 
-**Class Participation.** Active class participation is expected of every student who wants to succeed in the course, and includes (but is not limited to) attendance, participation in class discussions, and completing lab tasks and quizzes. Please note that if you miss class for any reason, it's your responsibility to obtain the class notes and topics from fellow peers.
+**Class Participation.** Active class participation is expected of every student who wants to succeed in the course, and includes (but is not limited to) attendance, note-taking, participation in class discussions, presentations on past code during lab, and completing lab tasks. Please note that if you miss class for any reason, it's your responsibility to obtain the class notes and topics from fellow peers.
 
 **Final Grades.** Your final grade for the course will be computed as a weighted average of several components. The relative weight of each component is shown below:
 * Assignments: 20%
-* Labs: 15%
-* Quizzes: 5%
-* Midterm: 20%
-* Practice Final: 7.5%
-* Final Exam (during exam period): 22.5%
-* Class participation, team work, and respectul engagement: 10%
+* Midterm 1: 20%
+* Midterm 2: 20%
+* Final Project: 20%
+* Class participation: 20%
+  ** attendance, team work, timely submissions of lab work, and respectful engagement: 10%
+  ** lab presentations: 10%
 
 There is **no arbitrary limit** on the number of A's, B's, C's etc., and every student will be assigned the grade they earn and deserve according to the grading standards of the college.
 
+**Opportunity to increase scores.** After you have received your score for each midterm, you will have the opportunity to increase your score for one of the problems, for up to half of the points missed, through a 1-1 presentation to your instructor during a subsequent class. 
+
+**Lab presentations.** There are 7 presentations during lab, as marked on the schedule. Your lowest two scores are dropped. You will present on lab submitted the previous week, and each presentation will take 5-7 minutes. 
+
+**Final Project.** There will be a final project, released in the last two weeks of the semester. You will work on this in pairs. The project will be open-ended (though the topics will be loosely assigned and described). You will be evaluated on code design, application of principles learned all semester, as well as a final presentation. 
+
+<!-- 
 **Extra Credit.** Problems/work labeled "extra credit" will be factored in at the end of the semester. We do not disclose how these will affect your grade, though you can expect they will be especially helpful for students on the border between two grades.
+-->
 
 
 <br/>
@@ -29,9 +37,10 @@ There is **no arbitrary limit** on the number of A's, B's, C's etc., and every s
 # Email Policy
 
 We expect students to follow the guidelines below when emailing the course instructors:
-* Please CC **both** instructors on **all emails**. We ask you to do this because we make decisions as a team; if you only email one of us, it will take us longer to respond, since we'll have to check in with each other behind the scenes.
-* Please **do not** email us regarding **technical** questions on the homework. We would love to help you, but explaining complicated CS concepts / helping you debug your code is **super difficult** via email---this is what office hours are for! 
-* Please expect a several day **delay** in getting email responses from your instructors. This isn't because we don't want to answer your questions; rather, as faculty, our inboxes are a constantly in a state of disaster. If you need to reach us more **urgently**, please:
+<!--
+* Please CC **both** instructors on **all emails**. We ask you to do this because we make decisions as a team; if you only email one of us, it will take us longer to respond, since we'll have to check in with each other behind the scenes.-->
+* Please **do not** email course staff regarding **technical** questions on the homework. We would love to help you, but explaining complicated CS concepts / helping you debug your code is **super difficult** via email---this is what office hours are for! 
+* Please expect a several day **delay** in getting email responses from your instructor. This isn't because we don't want to answer your questions; rather, as faculty, our inboxes are a constantly in a state of disaster. If you need to reach us more **urgently**, please:
   * Find us at office hours
   * Email us with the word "urgent" in the subject-line. 
 
@@ -65,7 +74,7 @@ We expect students to follow the guidelines below when emailing the course instr
 **Overview.** We believe that collaboration fosters a healthy and enjoyable educational environment. For this reason, we encourage you to talk with other students about the course material and to form study groups. Programming assignments in this course can be challenging. Also, teamwork and large-scale collaboration is the norm in the CS industry. Given this, some of the assignment work is required to be done paired with a partner from the class, while some is required to be done individually. In each assignment tasks will be clearly marked as either "individual" or "pair-programming."
 * On **individual** assignments, students are encouraged to discuss high-level ideas, draft pseudo-code together, and discuss debugging strategies. However, students cannot write code together, look at each other's code, etc. Every student must submit their own original work.
 * On **pair-programming** assignments, the two team members must work closely together on the pair-programming tasks, and turn in a single copy of work they did together.
-* On **exams and quizzes**, we do not allow collaborations of any kind.
+* On **exams**, we do not allow collaborations of any kind.
 
 **Crediting Collaborators.** On every problem you discussed with another peer, whether on the individual or pair-programming assignment, you must credit them. That is, you must list their name at the top of your file.
 
