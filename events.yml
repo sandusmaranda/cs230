@@ -5,7 +5,7 @@ events:
     topic: "Introduction"
     slides: "https://docs.google.com/presentation/d/13-2UVa9-4poY_KWbnqW49mA4UT76F4GhVxvDW2ivzzc/edit?usp=sharing"
     due:
-    released: "[Homework 1](/hw1)"
+    released: "[Homework 1](/cs230/hw1)"
     pre-class: |
       * Answer the [entry questionnaire](https://forms.gle/APQdh9dTJKBQzUfq8) by **5pm on Monday, September 1**.
       * Sign up to [Piazza](https://piazza.com/wellesley/fall2025/cs23001) and Gradescope using your Wellesley email
