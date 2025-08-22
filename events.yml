@@ -41,7 +41,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Objects"
     due: "Homework 1 by **10pm**"
-    released: "[Homework 2](/hw2)"
+    released: "[Homework 2](/cs230/hw2)"
     pre-class: |
       * Read [Chapter 5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 5](https://docs.google.com/forms/d/e/1FAIpQLSfMWVdOa-oLOtlFJaeWhDxtnvnfrcrN0rQ-zQsbonhhHqpusg/viewform?usp=sf_link)
@@ -70,7 +70,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Arrays and Arrays of Objects"
     due: "Homework 2 by **10pm**"
-    released: "[Homework 3](/hw3)"
+    released: "[Homework 3](/cs230/hw3)"
     pre-class: |
       * Read [Chapter 7](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 7](https://docs.google.com/forms/d/e/1FAIpQLScNmSvpFLFaNtv2sZhRZeLnExWvEcDuBMZ1MAMRK2MMAQI_3g/viewform?usp=sf_link)
@@ -99,7 +99,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Inheritance"
     due: "Homework 3 by **10pm**"
-    released: "[Homework 4](/hw4)"
+    released: "[Homework 4](/cs230/hw4)"
     pre-class: |
       * Read [Chapter 8](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 8](https://docs.google.com/forms/d/e/1FAIpQLSeSzzvp1aNqPbErHByzVhHpkhp9cV1r8ekSTAxPBs-OTRDlxw/viewform?usp=sf_link)
@@ -159,7 +159,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Stacks"
     due:
-    released: "[Homework 5](/hw5)"
+    released: "[Homework 5](/cs230/hw5)"
     pre-class: |
       * Read [Chapters 14.1-14.9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 14](https://docs.google.com/forms/d/e/1FAIpQLSc1v1aGlggmQpdh9hLN1C0UsAqzkJ8lIy4zDB_RxGiF6TEOqQ/viewform?usp=sf_link)
@@ -215,7 +215,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Binary Search and Queues"
     due: "Homework 5 by **10pm**"
-    released: "[Homework 6](/hw6)"
+    released: "[Homework 6](/cs230/hw6)"
     pre-class: |
       * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 15](https://docs.google.com/forms/d/e/1FAIpQLSc3bTN9zvAkGH96d58HH_dLzMjQ2OUH0h8bmqJkqIDN1udhPw/viewform?usp=sf_link)
@@ -273,7 +273,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Hash Tables"
     due: "Homework 6 by **10pm**"
-    released: "[Homework 7](/hw7)"
+    released: "[Homework 7](/cs230/hw7)"
     pre-class:  |
       * Read [Chapter 20](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
 
@@ -300,7 +300,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Trees"
     due: "Homework 7 by **10pm**"
-    released: "[Homework 8](/hw8)"
+    released: "[Homework 8](/cs230/hw8)"
     pre-class:  |
       * Read [Chapters 17](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing). Feel free to skip sections about node removals, and about "rotations."
       * Answer the quiz on [Chapter 17](https://docs.google.com/forms/d/e/1FAIpQLSfZwYiCpTyr4OMgzjEickHqXTpCfPpbDIYmRJUJsGb33qEOrw/viewform?usp=sf_link)
@@ -385,7 +385,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Priority Queues and Heaps"
     due:
-    released: "[Final Project](/fp)"
+    released: "[Final Project](/cs230/fp)"
     pre-class:  |
       * Read [Chapter 18](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 18](https://docs.google.com/forms/d/e/1FAIpQLSfk0iCXOo5CEKUmEIRdU8dkYlHlW4wrPWO0EiS2fYSbFtsoXg/viewform?usp=sf_link)
