@@ -90,6 +90,7 @@ events:
     day: "17"
     day-of-week: "Wednesday"
     topic: "Lab 3: Arrays and Arrays of Objects"
+    slides: "https://docs.google.com/document/d/1tSTeUkaRtYXviM3Uqca-Yvwrr0Aeh1CzKEf9lE8ne58/edit?usp=sharing"
     due:
     interview: "Objects"
     released:
