@@ -103,7 +103,7 @@ events:
     due: "Lab 3 Self-assessment"
     released:
     pre-class: |
-      * Read [article on AI] (/cs230/docs/A.I. Is Homogenizing Our Thoughts _ The New Yorker.pdf)
+      * Read [article on AI](/cs230/docs/A.I. Is Homogenizing Our Thoughts _ The New Yorker.pdf)
 
 
   - month: "September"
