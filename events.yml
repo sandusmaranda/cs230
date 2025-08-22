@@ -75,6 +75,7 @@ events:
     day: "16"
     day-of-week: "Tuesday"
     topic: "Arrays and Arrays of Objects"
+    slides: "https://drive.google.com/drive/folders/1z6JiCqYksIOOEE3bR6uHUltXHf3CSoAu?usp=drive_link"
     due: "Homework 2 by **10pm**"
     released: "[Homework 3](/cs230/hw3)"
     video: |
@@ -98,6 +99,7 @@ events:
     day: "19"
     day-of-week: "Friday"
     topic: "Arrays and Arrays of Objects"
+    slides: "https://drive.google.com/drive/folders/1z6JiCqYksIOOEE3bR6uHUltXHf3CSoAu?usp=drive_link"
     due: "Lab 3 Self-assessment"
     released:
     pre-class: |
