@@ -30,18 +30,22 @@ events:
     slides: "https://docs.google.com/presentation/d/1JTWD4QNEKclKYt-LPoxBTpIk46SFOCOh/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
     due: "Lab 1 Self-assessment"
     released:
+    video: "[Java Constructs](https://drive.google.com/file/d/1B5LgLvmoDWMycK3VqQWzV_Jc7BCo-OZK/view?usp=sharing)"
     pre-class: |
       * Answer the [syllabus quiz](https://docs.google.com/forms/d/e/1FAIpQLSeZHzjGBgvTQs-ddYuiw15vPtWLfigRiewoixkR7XF15O0cfQ/viewform?usp=sf_link)        
       * Read [Chapters 3-4](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing) (optional: 3.6-3.7)
       * Answer the quiz on [Chapter 3](https://docs.google.com/forms/d/e/1FAIpQLSeSuKjMNvgS1VwL13MdSS9RrZBc23CXLgwWtbzAG7NVDB4xIg/viewform?usp=sf_link), and [Chapter 4](https://docs.google.com/forms/d/e/1FAIpQLSfi9Ge7Jd0dmVnwQe6LqlK9qFb_Siqi366dNx5i77tKgwKB8g/viewform?usp=sf_link)
-    video: "[Java Constructs](https://drive.google.com/file/d/1B5LgLvmoDWMycK3VqQWzV_Jc7BCo-OZK/view?usp=sharing)"
-
+    
   - month: "September"
     day: "09"
     day-of-week: "Tuesday"
     topic: "Objects"
     due: "Homework 1 by **10pm**"
     released: "[Homework 2](/cs230/hw2)"
+    video: |
+      * [Objects](https://drive.google.com/file/d/1zMZcWGLYxzoilSd4n7Etup9dTAPY20Tc/view?usp=drive_link)
+      * [Class definition](https://drive.google.com/file/d/1rZJjGX7dGdXW3-zz3aXsMTvi1Io-UeUC/view?usp=drive_link)
+      * [UML Example](https://drive.google.com/file/d/1Zr6cnkQ6HYgaWgsmzHWtgkmrfF9-47B7/view?usp=drive_link)
     pre-class: |
       * Read [Chapter 5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 5](https://docs.google.com/forms/d/e/1FAIpQLSfMWVdOa-oLOtlFJaeWhDxtnvnfrcrN0rQ-zQsbonhhHqpusg/viewform?usp=sf_link)
@@ -71,6 +75,10 @@ events:
     topic: "Arrays and Arrays of Objects"
     due: "Homework 2 by **10pm**"
     released: "[Homework 3](/cs230/hw3)"
+    video: |
+      * [Array Intro](https://drive.google.com/file/d/1MzeeHn5rLM5ZaibrNqTcXjFS2iArPOID/view?usp=drive_link)
+      * [Array Properties](https://drive.google.com/file/d/1hZ9sr3vT2f40Q6p68hkL6qj0CeoCFRmd/view?usp=drive_link)
+      * [Pseudocode Example](https://drive.google.com/file/d/1Ut3v9ZuxNZoynHNsP3w4S6M4b_jQiWgn/view?usp=drive_link)
     pre-class: |
       * Read [Chapter 7](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 7](https://docs.google.com/forms/d/e/1FAIpQLScNmSvpFLFaNtv2sZhRZeLnExWvEcDuBMZ1MAMRK2MMAQI_3g/viewform?usp=sf_link)
@@ -100,6 +108,7 @@ events:
     topic: "Inheritance"
     due: "Homework 3 by **10pm**"
     released: "[Homework 4](/cs230/hw4)"
+    video: "[Inheritance](https://drive.google.com/file/d/1KAMP37GahxIwOJZT57UtJHlheiM4tgAz/view?usp=drive_link)"
     pre-class: |
       * Read [Chapter 8](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 8](https://docs.google.com/forms/d/e/1FAIpQLSeSzzvp1aNqPbErHByzVhHpkhp9cV1r8ekSTAxPBs-OTRDlxw/viewform?usp=sf_link)
@@ -205,6 +214,9 @@ events:
     topic: "Algorithm Analysis"
     due: "Lab 7 Self-assessment"
     released:
+    video: |
+      * [Algorithm Analysis](https://drive.google.com/file/d/1qGwhAo71Xa_laqnx50I3kw_zogAb8XkE/view?usp=drive_link)
+      * [Example](https://drive.google.com/file/d/1L4q9Gk4vQkGw9IPwpU_64xUBALxmJ27C/view?usp=drive_link)
     pre-class: |
       * Read [Chapter 12](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 12](https://docs.google.com/forms/d/e/1FAIpQLSeESUMXnlhnGv7kgHsJ1ysvudHGSlmJ0h7IGNzusUpVrAZHpA/viewform?usp=sf_link)
