@@ -70,6 +70,7 @@ events:
     released:
     pre-class: |
       * Read [Chapter 5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Read [article on AI](/cs230/docs/AI Is Taking Water From the Desert - The Atlantic.pdf)
 
   - month: "September"
     day: "16"
