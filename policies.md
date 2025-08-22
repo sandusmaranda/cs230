@@ -16,14 +16,14 @@ layout: default
 * Midterm 2: 20%
 * Final Project: 20%
 * Class participation: 20% 
-  * attendance, team work, timely submissions of lab work, and respectful engagement: 10%
-  * lab presentations: 10%
+  * attendance, quizzes, team work, timely submissions of lab work, and respectful engagement: 10%
+  * code interviews: 10%
 
 There is **no arbitrary limit** on the number of A's, B's, C's etc., and every student will be assigned the grade they earn and deserve according to the grading standards of the college.
 
 **Opportunity to increase scores.** After you have received your score for each midterm, you will have the opportunity to increase your score for one of the problems, for up to half of the points missed, through a 1-1 presentation to your instructor during a subsequent class. 
 
-**Lab presentations.** There are 7 presentations during lab, as marked on the schedule. Your lowest two scores are dropped. You will present on lab submitted the previous week, and each presentation will take 5-7 minutes. 
+**Code interviews.** There are 7 individual code interviews during lab, as marked on the schedule. Your lowest two scores are dropped. You will present on lab submitted the previous week, and each interview will take 5-7 minutes. You might be asked to trace a test case, compare approaches, find bugs, or identify alternative approaches. 
 
 **Final Project.** There will be a final project, released in the last two weeks of the semester. You will work on this in pairs. The project will be open-ended (though the topics will be loosely assigned and described). You will be evaluated on code design, application of principles learned all semester, as well as a final presentation. 
 
