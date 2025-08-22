@@ -43,6 +43,7 @@ def main():
             topic = event.get('topic', None)
             slides = event.get('slides', None)
             due = event.get('due', None)
+            presentation = event.get('presentation', None)
             released = event.get('released', None)
             extra_credit = event.get('extra-credit', None)
             exam = event.get('exam', None)
@@ -102,6 +103,11 @@ def main():
                     if due is not None:
                         with tags.li():
                             tags.span('Due:', cls='tag due_tag')
+                            tags.span(convert_md_to_html_if_multiline(due))
+
+                    if presentation is not None:
+                        with tags.li():
+                            tags.span('Presentation:', cls='tag due_tag')
                             tags.span(convert_md_to_html_if_multiline(due))
                         
                     if released is not None:
