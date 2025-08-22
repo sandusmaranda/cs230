@@ -80,7 +80,7 @@ events:
     day-of-week: "Wednesday"
     topic: "Lab 3: Arrays and Arrays of Objects"
     due:
-    presentation: "Objects"
+    interview: "Objects"
     released:
     pre-class:
 
@@ -108,7 +108,7 @@ events:
     day: "24"
     day-of-week: "Wednesday"
     topic: "Lab 4: Inheritance"
-    presentation: "Arrays"
+    interview: "Arrays"
     released:
     pre-class:
 
@@ -168,7 +168,7 @@ events:
     day: "08"
     day-of-week: "Wednesday"
     topic: "Lab 6: Stacks"
-    presentation: "Polymorphism and Interfaces"
+    interview: "Polymorphism and Interfaces"
     released:
     pre-class:
 
@@ -225,7 +225,7 @@ events:
     day: "22"
     day-of-week: "Wednesday"
     topic: "Lab 8: Queues"
-    presentation: "LinkedLists"
+    interview: "LinkedLists"
     released:
     pre-class:
 
@@ -309,7 +309,7 @@ events:
     day: "12"
     day-of-week: "Wednesday"
     topic: "Lab 11: Trees"
-    presentation: "Hash Tables"
+    interview: "Hash Tables"
     released:
     pre-class:
 
@@ -336,7 +336,7 @@ events:
     day: "19"
     day-of-week: "Wednesday"
     topic: "Lab 12: Graphs"
-    presentation: "Trees"
+    interview: "Trees"
     released:
     pre-class:
 
@@ -394,7 +394,7 @@ events:
     day: "03"
     day-of-week: "Wednesday"
     topic: "Lab 13: Priority Queues and Heaps"
-    presentation: "Graphs"
+    interview: "Graphs"
     released:
     pre-class:
 
