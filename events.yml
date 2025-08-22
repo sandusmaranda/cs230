@@ -28,7 +28,7 @@ events:
     day-of-week: "Friday"
     topic: "Java Constructs"
     slides: "https://docs.google.com/presentation/d/1JTWD4QNEKclKYt-LPoxBTpIk46SFOCOh/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
-    due:
+    due: "Lab 1 Self-assessment"
     released:
     pre-class: |
       * Answer the [syllabus quiz](https://docs.google.com/forms/d/e/1FAIpQLSeZHzjGBgvTQs-ddYuiw15vPtWLfigRiewoixkR7XF15O0cfQ/viewform?usp=sf_link)        
@@ -60,7 +60,7 @@ events:
     day: "12"
     day-of-week: "Friday"
     topic: "Objects"
-    due:
+    due: "Lab 2 Self-assessment"
     released:
     pre-class: |
       * Read [Chapter 5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -88,7 +88,7 @@ events:
     day: "19"
     day-of-week: "Friday"
     topic: "Arrays and Arrays of Objects"
-    due:
+    due: "Lab 3 Self-assessment"
     released:
     pre-class: |
       * Read [Chapter 7](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -108,7 +108,7 @@ events:
     day: "24"
     day-of-week: "Wednesday"
     topic: "Lab 4: Inheritance"
-    due: "Presentation: Arrays"
+    presentation: "Arrays"
     released:
     pre-class:
 
@@ -116,7 +116,7 @@ events:
     day: "26"
     day-of-week: "Friday"
     topic: "Polymorphism"
-    due:
+    due: "Lab 4 Self-assessment"
     released:
     pre-class: |
       * Read [Chapter 9](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -144,7 +144,7 @@ events:
     day: "03"
     day-of-week: "Friday"
     topic:
-    due:
+    due: "Lab 5 Self-assessment"
     released:
     pre-class: |
       * Review [this list of topics](https://docs.google.com/document/d/1B10UeBPa-w7O9VGIwkFc31jFtY_7LnJP5rOAzRT1-T0/edit?usp=sharing)
@@ -168,7 +168,7 @@ events:
     day: "08"
     day-of-week: "Wednesday"
     topic: "Lab 6: Stacks"
-    due: "Presentation: Polymorphism and Interfaces"
+    presentation: "Polymorphism and Interfaces"
     released:
     pre-class:
 
@@ -176,7 +176,7 @@ events:
     day: "10"
     day-of-week: "Friday"
     topic: "Linear Nodes and Linked Stacks"
-    due:
+    due: "Lab 6 Self-assessment"
     released:
     pre-class: |
       * Read [Chapters 14.10-14.14](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -203,7 +203,7 @@ events:
     day: "17"
     day-of-week: "Friday"
     topic: "Algorithm Analysis"
-    due:
+    due: "Lab 7 Self-assessment"
     released:
     pre-class: |
       * Read [Chapter 12](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -225,7 +225,7 @@ events:
     day: "22"
     day-of-week: "Wednesday"
     topic: "Lab 8: Queues"
-    due: "Presentation: LinkedLists"
+    presentation: "LinkedLists"
     released:
     pre-class:
 
@@ -233,7 +233,7 @@ events:
     day: "24"
     day-of-week: "Friday"
     topic: "Sorting"
-    due:
+    due: "Lab 8 Self-assessment"
     released:
     pre-class: |
       * Read [Chapter 13](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -261,7 +261,7 @@ events:
     day: "31"
     day-of-week: "Friday"
     topic: "Hash Tables"
-    due:
+    due: "Lab 9 Self-assessment"
     released:
     pre-class: |
       * Read [Chapter 20](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -289,7 +289,7 @@ events:
     day: "07"
     day-of-week: "Friday"
     topic: "Trees"
-    due:
+    due: "Lab 10 Self-assessment"
     released:
     pre-class:  |
       * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -309,7 +309,7 @@ events:
     day: "12"
     day-of-week: "Wednesday"
     topic: "Lab 11: Trees"
-    due: "Presentation: Hash Tables"
+    presentation: "Hash Tables"
     released:
     pre-class:
 
@@ -317,7 +317,7 @@ events:
     day: "14"
     day-of-week: "Friday"
     topic: "Graphs"
-    due:
+    due: "Lab 11 Self-assessment"
     released:
     pre-class:  |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -336,14 +336,14 @@ events:
     day: "19"
     day-of-week: "Wednesday"
     topic: "Lab 12: Graphs"
-    due: "Presentation: Trees"
+    presentation: "Trees"
     released:
     pre-class:
 
   - month: "November"
     day: "21"
     day-of-week: "Friday"
-    topic:
+    topic: "Lab 12 Self-assessment"
     due:
     released:
     pre-class:  |
@@ -394,7 +394,7 @@ events:
     day: "03"
     day-of-week: "Wednesday"
     topic: "Lab 13: Priority Queues and Heaps"
-    due: "Presentation: Graphs"
+    presentation: "Graphs"
     released:
     pre-class:
 
@@ -402,7 +402,7 @@ events:
     day: "05"
     day-of-week: "Friday"
     topic: "Final Project Work"
-    due:
+    due: "Lab 13 Self-assessment"
     released:
     pre-class:
 
