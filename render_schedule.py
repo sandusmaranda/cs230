@@ -108,7 +108,7 @@ def main():
                     if presentation is not None:
                         with tags.li():
                             tags.span('Presentation:', cls='tag due_tag')
-                            tags.span(convert_md_to_html_if_multiline(due))
+                            tags.span(convert_md_to_html_if_multiline(presentation))
                         
                     if released is not None:
                         with tags.li():
