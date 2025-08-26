@@ -111,6 +111,7 @@ events:
     day: "23"
     day-of-week: "Tuesday"
     topic: "Inheritance"
+    slides: "https://drive.google.com/drive/folders/1yIsMzs40rUnuZk8G1G5ZsaatfzRUDVOV?usp=sharing"
     due: "Homework 3 by **10pm**"
     released: "[Homework 4](/cs230/hw4)"
     video: "[Inheritance](https://drive.google.com/file/d/1KAMP37GahxIwOJZT57UtJHlheiM4tgAz/view?usp=drive_link)"
