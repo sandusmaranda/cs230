@@ -131,6 +131,7 @@ events:
     day: "26"
     day-of-week: "Friday"
     topic: "Polymorphism"
+    slides: "https://drive.google.com/drive/folders/1PUB_4YEWuJMqZY3hEzicUI3imGWvF9Bx?usp=sharing"
     due: "Lab 4 Self-assessment"
     released:
     pre-class: |
