@@ -423,7 +423,6 @@ events:
     day-of-week: "Friday"
     topic: "Final Project Work"
     due: "Lab 13 Self-assessment"
-    interview: "Graphs (part I)"
     released:
     pre-class:
 
@@ -439,6 +438,7 @@ events:
     day: "10"
     day-of-week: "Wednesday"
     topic: "Final Project Work"
+    interview: "Graphs (part II)"
     due:
     released:
     pre-class:
