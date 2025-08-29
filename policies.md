@@ -37,9 +37,7 @@ There is **no arbitrary limit** on the number of A's, B's, C's etc., and every s
 # Email Policy
 
 We expect students to follow the guidelines below when emailing the course instructors:
-<!--
-* Please CC **both** instructors on **all emails**. We ask you to do this because we make decisions as a team; if you only email one of us, it will take us longer to respond, since we'll have to check in with each other behind the scenes.
--->
+
 * Please **do not** email course staff regarding **technical** questions on the homework. We would love to help you, but explaining complicated CS concepts / helping you debug your code is **super difficult** via email---this is what office hours are for! 
 * Please expect a several day **delay** in getting email responses from your instructor. This isn't because we don't want to answer your questions; rather, as faculty, our inboxes are a constantly in a state of disaster. If you need to reach us more **urgently**, please:
   * Find us at office hours
