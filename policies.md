@@ -38,7 +38,8 @@ There is **no arbitrary limit** on the number of A's, B's, C's etc., and every s
 
 We expect students to follow the guidelines below when emailing the course instructors:
 <!--
-* Please CC **both** instructors on **all emails**. We ask you to do this because we make decisions as a team; if you only email one of us, it will take us longer to respond, since we'll have to check in with each other behind the scenes.-->
+* Please CC **both** instructors on **all emails**. We ask you to do this because we make decisions as a team; if you only email one of us, it will take us longer to respond, since we'll have to check in with each other behind the scenes.
+-->
 * Please **do not** email course staff regarding **technical** questions on the homework. We would love to help you, but explaining complicated CS concepts / helping you debug your code is **super difficult** via email---this is what office hours are for! 
 * Please expect a several day **delay** in getting email responses from your instructor. This isn't because we don't want to answer your questions; rather, as faculty, our inboxes are a constantly in a state of disaster. If you need to reach us more **urgently**, please:
   * Find us at office hours
@@ -50,13 +51,13 @@ We expect students to follow the guidelines below when emailing the course instr
 # Late Policy
 
 **Late Passes.** We offer every student **3 x 24-hour late passes**.
-* Each late pass may be applied to delay one assignment deadline by 24 hours within the semester.
+* Each late pass may be applied to delay one assignment deadline by 24 hours within the semester. Late passes cannot be used for exams or the final project.
 * Any number of available passes may be applied to any assignment deadline. No work is accepted past the end of the final exam period, regardless of available late passes.
 * Late passes are not transferable, reusable, or divisible.
 * After your late pass budget is exhausted, each additional 24-hour delay in assignment submission is assessed a late penalty that subtracts 10% of the maximum assignment grade from your awarded grade on that assignment.
 * To use a late day, you must fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdNt28znZCKYs2RekSgGZkFD6FfdSlndreAEk1zSVedpXq3nA/viewform?usp=dialog) **before the assignment deadline**.
 
-**Late Assignments.** We *do not* accept assignments more than 3 days past the deadline. The goal of this policy is to make sure we're able to get you feedback in a timely matter, and to ensure the TAs' grading work is manageable (they are taking difficult courses, just like you!). 
+**Late Assignments.** We *do not* accept assignments more than 3 days past the deadline. The goal of this policy is to make sure we're able to get you feedback in a timely manner, and to ensure the TAs' grading work is manageable (they are taking difficult courses, just like you!). 
 
 **Partnered Assignments.** You *cannot* use late days on partnered assignments. As in individual assignments, 10% of the maximum assignment grade will be deducted for every late day, and we *will not* accept assignments more than 3 days late. Students who submit partnered assignments individually will receive very delayed feedback (for logistical reasons), and will be marked down in their participation / team-work grade.
 
@@ -73,7 +74,7 @@ We expect students to follow the guidelines below when emailing the course instr
 
 **Overview.** We believe that collaboration fosters a healthy and enjoyable educational environment. For this reason, we encourage you to talk with other students about the course material and to form study groups. Programming assignments in this course can be challenging. Also, teamwork and large-scale collaboration is the norm in the CS industry. Given this, some of the assignment work is required to be done paired with a partner from the class, while some is required to be done individually. In each assignment tasks will be clearly marked as either "individual" or "pair-programming."
 * On **individual** assignments, students are encouraged to discuss high-level ideas, draft pseudo-code together, and discuss debugging strategies. However, students cannot write code together, look at each other's code, etc. Every student must submit their own original work.
-* On **pair-programming** assignments, the two team members must work closely together on the pair-programming tasks, and turn in a single copy of work they did together.
+* On **pair-programming** assignments and the **final project**, the two team members must work closely together on the pair-programming tasks, and turn in a single copy of work they did together.
 * On **exams**, we do not allow collaborations of any kind.
 
 **Crediting Collaborators.** On every problem you discussed with another peer, whether on the individual or pair-programming assignment, you must credit them. That is, you must list their name at the top of your file.
