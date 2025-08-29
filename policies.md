@@ -23,7 +23,7 @@ There is **no arbitrary limit** on the number of A's, B's, C's etc., and every s
 
 **Opportunity to increase scores.** After you have received your score for each midterm, you will have the opportunity to increase your score for one of the problems, for up to half of the points missed, through a 1-1 presentation to your instructor during a subsequent class. 
 
-**Code interviews.** There are 7 individual code interviews during lab, as marked on the schedule. Your lowest two scores are dropped. You will present on lab submitted the previous week, and each interview will take 5-7 minutes. You might be asked to trace a test case, compare approaches, find bugs, or identify alternative approaches. 
+**Code interviews.** There are 5 individual code interviews during lab, as marked on the schedule. Your lowest score is dropped. You will present on lab submitted the previous week, and each interview will take 5-7 minutes. You might be asked to trace a test case, compare approaches, find bugs, or identify alternative approaches. You will be evaluated according to this [rubric](https://docs.google.com/document/d/1oMYSME2V85b2E4B6JqxQiuc4JdNBGkTzxBpHZqlNdGQ/edit?usp=sharing). 
 
 **Final Project.** There will be a final project, released in the last two weeks of the semester. You will work on this in pairs. The project will be open-ended (though the topics will be loosely assigned and described). You will be evaluated on code design, application of principles learned all semester, as well as a final presentation. 
 
