@@ -123,6 +123,7 @@ events:
     day: "24"
     day-of-week: "Wednesday"
     topic: "Lab 4: Inheritance"
+    slides: "https://docs.google.com/document/d/1aKwqRR41K0Jzgo5PB1Tf95jCnOgEOLieY_ms8ZD9OJg/edit?usp=sharing"
     interview: "Objects (part II)"
     released:
     pre-class:
@@ -142,6 +143,7 @@ events:
     day: "30"
     day-of-week: "Tuesday"
     topic: "Interfaces and IO"
+    slides: "https://drive.google.com/drive/folders/12TP1uXZwQ--VL_ex5pD1u-9pOHUM2Fwa?usp=sharing"
     due: "Homework 4 by **10pm**"
     released:
     pre-class: |
