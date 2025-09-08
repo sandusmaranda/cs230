@@ -155,6 +155,7 @@ events:
     day: "01"
     day-of-week: "Wednesday"
     topic: "Lab 5: Polymorphism and Interfaces"
+    slides: "https://docs.google.com/document/d/1TIAForBJDGTIRkD4APQW5ePEVcSapuoz2lxICGJI9Pc/edit?usp=sharing"
     interview: "Inheritance (part I)"
     due:
     released:
