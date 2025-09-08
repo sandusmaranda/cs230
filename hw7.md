@@ -270,22 +270,32 @@ l.insert(0, 0);
 
 <br/>
 
-# Homework 7, Part B: Big-O
+# Homework 7, Part B: Counting Sort
 
+Counting sort is a new type of sorting algorithm that assumes each of the n input elements is an integer in the range 0 to k, for some integer k. The algorithm determines, for each input element x, the number of elements less than x. It uses this information to place element x directly into its position in the output array. For example, if 17 elements are less than x, then x belongs in output position 18. The algorithm also has a procedure to handle situations in which several elements have the same value. 
 
+Consider the following pseudocode:
 
-Consider the following method that removes a CD from a linear collection (e.g. array):
+```
+Counting-Sort(A,B,k)
+ let C[0...k] be a new array
+ for i = 0 to k
+  C[i] = 0
+//add your comment here
+ for j = 1 to A.length
+  C[A[j]] = C[A[j]]+1
+//add your comment here
+ for i = 1 to k
+  C[i]=C[i]+C[i-1]
+//add your comment here
+ for j = A.length downto 1
+  B[C[A[j]]] = A[j]
+  C[A[j]] = C[A[j]]-1
+//add your comment here
+```
 
-<img src="_images/figs/code.png" alt="code to remove a CD from an array" style="width: 750px;"/>
-
-Assume that the collection has `N` CDs to start with.
-Please write the Big-O of every line marked in the code.
-For lines inside a loop, please write the Big-O of the line, *accounting for its repetition*.
-Write your answer in a text file called `BigO.txt` and submit it.
-
-**Note:** If you find any of the questions ambiguous (that is, if you believe there are multiple interpretations), give your answer *for each interpretation*.
-
-
+First, make sure you understand the code really well. Add comments in all the marked locations and illustrate counting sort on the array [2,5,3,0,2,3,0,3], where k = 5. 
+Next, identify the runtime of counting sort, and explain your reasoning. 
 
 
 
@@ -307,6 +317,21 @@ Write your answer in a text file called `BigO.txt` and submit it.
 <!--
 
 
+
+# Homework 7, Part B: Big-O
+
+
+
+Consider the following method that removes a CD from a linear collection (e.g. array):
+
+<img src="_images/figs/code.png" alt="code to remove a CD from an array" style="width: 750px;"/>
+
+Assume that the collection has `N` CDs to start with.
+Please write the Big-O of every line marked in the code.
+For lines inside a loop, please write the Big-O of the line, *accounting for its repetition*.
+Write your answer in a text file called `BigO.txt` and submit it.
+
+**Note:** If you find any of the questions ambiguous (that is, if you believe there are multiple interpretations), give your answer *for each interpretation*.
 
 
 
