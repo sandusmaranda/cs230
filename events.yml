@@ -46,7 +46,6 @@ events:
     video: |
       * [Objects](https://drive.google.com/file/d/1zMZcWGLYxzoilSd4n7Etup9dTAPY20Tc/view?usp=drive_link)
       * [Class definition](https://drive.google.com/file/d/1rZJjGX7dGdXW3-zz3aXsMTvi1Io-UeUC/view?usp=drive_link)
-      * [UML Example](https://drive.google.com/file/d/1Zr6cnkQ6HYgaWgsmzHWtgkmrfF9-47B7/view?usp=drive_link)
     pre-class: |
       * Read [Chapter 5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 5](https://docs.google.com/forms/d/e/1FAIpQLSdfxpszjJrF-IMIevbsnckmEtwawiDr6IMOnCpOcqf98jjy8A/viewform?usp=sharing&ouid=106178893928220173305)
@@ -67,6 +66,8 @@ events:
     topic: "Objects"
     slides: "https://docs.google.com/presentation/d/1nHovy85dCcKpf1ddW4E_qymoDLoXaUiC/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
     due: "Lab 2 Self-assessment"
+    video: |
+      * [UML Example](https://drive.google.com/file/d/1Zr6cnkQ6HYgaWgsmzHWtgkmrfF9-47B7/view?usp=drive_link)
     released:
     pre-class: |
       * Read [article on AI](/cs230/docs/AI Is Taking Water From the Desert - The Atlantic.pdf)
