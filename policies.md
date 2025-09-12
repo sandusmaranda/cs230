@@ -53,7 +53,7 @@ We expect students to follow the guidelines below when emailing the course instr
 * Any number of available passes may be applied to any assignment deadline. No work is accepted past the end of the final exam period, regardless of available late passes.
 * Late passes are not transferable, reusable, or divisible.
 * After your late pass budget is exhausted, each additional 24-hour delay in assignment submission is assessed a late penalty that subtracts 10% of the maximum assignment grade from your awarded grade on that assignment.
-* To use a late day, you must fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdNt28znZCKYs2RekSgGZkFD6FfdSlndreAEk1zSVedpXq3nA/viewform?usp=dialog) **before the assignment deadline**.
+* To use a late day, you must fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeQZuXQGUZ8FKq22CUACVtCsmI_dkM0JiL-pBlFAkww8DYCnA/viewform?usp=sharing&ouid=106178893928220173305) **before the assignment deadline**.
 
 **Late Assignments.** We *do not* accept assignments more than 3 days past the deadline. The goal of this policy is to make sure we're able to get you feedback in a timely manner, and to ensure the TAs' grading work is manageable (they are taking difficult courses, just like you!). 
 
