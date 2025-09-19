@@ -93,7 +93,6 @@ events:
     topic: "Lab 3: Arrays and Arrays of Objects"
     slides: "https://docs.google.com/document/d/1tSTeUkaRtYXviM3Uqca-Yvwrr0Aeh1CzKEf9lE8ne58/edit?usp=sharing"
     due:
-    interview: "Objects (part I)"
     released:
     pre-class:
 
@@ -125,7 +124,7 @@ events:
     day-of-week: "Wednesday"
     topic: "Lab 4: Inheritance"
     slides: "https://docs.google.com/document/d/1aKwqRR41K0Jzgo5PB1Tf95jCnOgEOLieY_ms8ZD9OJg/edit?usp=sharing"
-    interview: "Objects (part II)"
+    interview: "Objects (part I)"
     released:
     pre-class:
 
@@ -156,7 +155,7 @@ events:
     day-of-week: "Wednesday"
     topic: "Lab 5: Polymorphism and Interfaces"
     slides: "https://docs.google.com/document/d/1TIAForBJDGTIRkD4APQW5ePEVcSapuoz2lxICGJI9Pc/edit?usp=sharing"
-    interview: "Inheritance (part I)"
+    interview: "Objects (part II)"
     due:
     released:
     pre-class:
@@ -188,7 +187,7 @@ events:
     day: "08"
     day-of-week: "Wednesday"
     topic: "Lab 6: Stacks"
-    interview: "Inheritance (part II)"
+    interview: "Polymorphism and IO (part I)"
     released:
     pre-class:
 
@@ -215,7 +214,7 @@ events:
     day: "15"
     day-of-week: "Wednesday"
     topic: "Lab 7: LinkedLists"
-    interview: "Stacks (part I)"
+    interview: "Polymorphism and IO (part II)"
     due:
     released:
     pre-class:
@@ -249,7 +248,7 @@ events:
     day: "22"
     day-of-week: "Wednesday"
     topic: "Lab 8: Queues"
-    interview: "Stacks (part II)"
+    interview: "LinkedLists (part I)"
     released:
     pre-class:
 
@@ -277,7 +276,7 @@ events:
     day: "29"
     day-of-week: "Wednesday"
     topic: "Lab 9: Algorithm Analysis and Sorting"
-    interview: "Queues (part I)"
+    interview: "LinkedLists (part II)"
     due:
     released:
     pre-class:
@@ -306,7 +305,6 @@ events:
     day: "05"
     day-of-week: "Wednesday"
     topic: "Lab 10: Hash Tables"
-    interview: "Queues (part II)"
     due:
     released:
     pre-class:
@@ -335,6 +333,7 @@ events:
     day: "12"
     day-of-week: "Wednesday"
     topic: "Lab 11: Trees"
+    interview: "HashTables (part I)"
     released:
     pre-class:
 
@@ -361,6 +360,7 @@ events:
     day: "19"
     day-of-week: "Wednesday"
     topic: "Lab 12: Graphs"
+    interview: "HashTables (part II)"
     released:
     pre-class:
 
