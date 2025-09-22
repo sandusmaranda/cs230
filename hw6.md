@@ -54,7 +54,7 @@ There's no need to test your `DoublyLinearNode<T>`.
 
 <br/>
 
-# Homework 7, Part A: Merge-Sorting a Linked List
+# Homework 6, Part B: Merge-Sorting a Linked List
 
 In this assignment, we will walk you through implementing merge sort for a linked list.
 In addition to the coding problems, we ask you to answer **open-response questions** and submit your answers in a file called `Answers.txt`.
