@@ -2,10 +2,10 @@
 layout: default
 ---
 
-# Homework 6, Part B: Implement a Queue
+# Homework 7, Part A: Implement a Queue
 
-Here, you will implement a queue using your implementation of the doubly linked list above.
-Task 0: Getting Settled
+Here, you will implement a queue using your implementation of the doubly linked list from last week.
+## Task 0: Getting Settled
 
 Your queue should implement the Queue<T> interface:
 
@@ -30,7 +30,7 @@ public interface Queue<T> {
 }
 
 Create a file for it in your BlueJ project.
-Task 1: Implement the queue
+## Task 1: Implement the queue
 
 Create a class, LinkedQueue<T> that implements the Queue<T> interface. You should use your DoublyLinkedList<T> in your implementation. Before starting to code, determine whether LinkedQueue<T> should have an is-a or has-a relationship with DoublyLinkedList<T>.
 Task 2: Test your queue implementation
@@ -38,14 +38,14 @@ Task 2: Test your queue implementation
 Write your tests in a main method in the same file as LinkedQueue<T>. Please save your tests in LinkedQueueTests.txt.
 
 
-Submission Checklist
+## Submission Checklist
 
-    You submitted all .java files and all .txt files.
-    Your files are named exactly as in the homework specification, including file extensions.
-    You tested every possible pathway in your code.
-    You signed every class (or file) with @author and @version, accompanied by a description of what the class does.
-    You wrote javadoc for every function, which includes @param and @return.
-    You wrote inline comments explaining the logic of your code.
+* You submitted all .java files and all .txt files.
+* Your files are named exactly as in the homework specification, including file extensions.
+* You tested every possible pathway in your code.
+* You signed every class (or file) with @author and @version, accompanied by a description of what the class does.
+* You wrote javadoc for every function, which includes @param and @return.
+* You wrote inline comments explaining the logic of your code.
 
 
 # Homework 7, Part B: While my guitar weeps
