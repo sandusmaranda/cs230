@@ -232,30 +232,10 @@ events:
       * Read [Chapter 12](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 12](https://docs.google.com/forms/d/e/1FAIpQLScEnyW1Xxn5_kig0LeVHgSPJ-rqdMxe1mJcWcX8ZzDBzyAXFg/viewform?usp=sharing&ouid=106178893928220173305)
 
-
-  - month: "October"
-    day: "21"
-    day-of-week: "Tuesday"
-    topic: "Binary Search and Queues"
-    due: "Homework 5 by **10pm**"
-    released: "[Homework 6](/cs230/hw6)"
-    pre-class: |
-      * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 15](https://forms.gle/PDmDcWaNcTVDeQbU8)
-  
-
-  - month: "October"
-    day: "22"
-    day-of-week: "Wednesday"
-    topic: "Lab 8: Queues"
-    interview: "LinkedLists (part I)"
-    released:
-    pre-class:
-
-  - month: "October"
+ - month: "October"
     day: "24"
-    day-of-week: "Friday"
-    topic: "Sorting"
+    day-of-week: "Tuesday"
+    topic: "Searching and Sorting"
     due: "Lab 8 Self-assessment"
     released:
     pre-class: |
@@ -263,6 +243,25 @@ events:
       * Answer the quiz on [Chapter 13](https://docs.google.com/forms/d/e/1FAIpQLScEnyW1Xxn5_kig0LeVHgSPJ-rqdMxe1mJcWcX8ZzDBzyAXFg/viewform?usp=sharing&ouid=106178893928220173305)
     
 
+  - month: "October"
+    day: "22"
+    day-of-week: "Wednesday"
+    topic: "Lab 8: Algorithm Analysis and Sorting"
+    interview: "LinkedLists (part I)"
+    released:
+    pre-class:
+
+  - month: "October"
+    day: "21"
+    day-of-week: "Friday"
+    topic: "Queues"
+    due: "Homework 5 by **10pm**"
+    released: "[Homework 6](/cs230/hw6)"
+    pre-class: |
+      * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 15](https://forms.gle/PDmDcWaNcTVDeQbU8)
+  
+ 
   - month: "October"
     day: "28"
     day-of-week: "Tuesday"
@@ -275,7 +274,7 @@ events:
   - month: "October"
     day: "29"
     day-of-week: "Wednesday"
-    topic: "Lab 9: Algorithm Analysis and Sorting"
+    topic: "Lab 9: Queues"
     interview: "LinkedLists (part II)"
     due:
     released:
