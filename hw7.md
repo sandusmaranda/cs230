@@ -270,36 +270,7 @@ l.insert(0, 0);
 
 <br/>
 
-# Homework 7, Part B: Counting Sort
 
-Counting sort is a new type of sorting algorithm that assumes each of the n input elements is an integer in the range 0 to k, for some integer k. The algorithm determines, for each input element x, the number of elements less than x. It uses this information to place element x directly into its position in the output array. For example, if 17 elements are less than x, then x belongs in output position 18. The algorithm also has a procedure to handle situations in which several elements have the same value. 
-
-Consider the following pseudocode:
-
-```
-Counting-Sort(A,B,k)
- let C[0...k] be a new array
- for i = 0 to k
-  C[i] = 0
-//add your comment here
- for j = 1 to A.length
-  C[A[j]] = C[A[j]]+1
-//add your comment here
- for i = 1 to k
-  C[i]=C[i]+C[i-1]
-//add your comment here
- for j = A.length downto 1
-  B[C[A[j]]] = A[j]
-  C[A[j]] = C[A[j]]-1
-//add your comment here
-```
-
-First, make sure you understand the code really well. Add comments in all the marked locations and illustrate counting sort on the array [2,5,3,0,2,3,0,3], where k = 5. 
-Next, identify the runtime of counting sort, and explain your reasoning. 
-
-
-
-<br/>
 
 # Submission Checklist
 
