@@ -2,284 +2,50 @@
 layout: default
 ---
 
+# Homework 6, Part B: Implement a Queue
 
-# Homework 7, Part A: Merge-Sorting a Linked List
+Here, you will implement a queue using your implementation of the doubly linked list above.
+Task 0: Getting Settled
 
-In this assignment, we will walk you through implementing merge sort for a linked list.
-In addition to the coding problems, we ask you to answer **open-response questions** and submit your answers in a file called `Answers.txt`.
+Your queue should implement the Queue<T> interface:
 
+public interface Queue<T> {
+    // Adds element to rear of the queue
+    public void enqueue(T element);
 
-<br/>
+    // Removes and returns element at front of queue
+    public T dequeue();
 
+    // Return reference to first element without removing
+    public T first();
 
-## Task 0: Creating your BlueJ project
-
-Create a BlueJ project with the following starter code.
-
-`LinearList.java`:
-```java
-public interface LinearList<T> {
+    // Returns true if queue contains no elements
     public boolean isEmpty();
+
+    // Returns number of elements
     public int size();
-    public T get(int position);
-    public void insert(int position, T element);
-    public T remove(int position);
+
+    // Returns string representation
     public String toString();
 }
-```
 
-`LinearNode.java`:
-```java
-public class LinearNode<T> {
-   private LinearNode<T> next;
-   private T element;
+Create a file for it in your BlueJ project.
+Task 1: Implement the queue
 
-   public LinearNode() {
-      next = null;
-      element = null;
-   }
+Create a class, LinkedQueue<T> that implements the Queue<T> interface. You should use your DoublyLinkedList<T> in your implementation. Before starting to code, determine whether LinkedQueue<T> should have an is-a or has-a relationship with DoublyLinkedList<T>.
+Task 2: Test your queue implementation
 
-   public LinearNode(T elem) {
-      next = null;
-      element = elem;
-   }
-
-   public LinearNode<T> getNext() {
-      return next;
-   }
-
-   public void setNext(LinearNode<T> node) {
-      next = node;
-   }
-
-   public T getElement() {
-      return element;
-   }
-
-   public void setElement(T elem) {
-      element = elem;
-   }
-}
-```
-
-`LinkedList.java`:
-```java
-public class LinkedList<T> implements LinearList<T> {
-    protected LinearNode<T> front;
-    protected int count;
-    
-    public LinkedList() {
-        this.front = null;
-        this.count = 0;
-    }
-    
-    public boolean isEmpty() {
-        return this.count == 0;
-    }
-    
-    public int size() {
-        return this.count;
-    }
-
-    protected LinearNode<T> getNode(int position) {
-        if (position < 0 || position >= this.count) {
-            throw new RuntimeException(
-                "Asking for element at index " + position 
-                + " in a list of size" + this.count
-            );
-        }
-        
-        LinearNode<T> current = this.front;
-        for (int i = 0; i < position; i++) {
-            current = current.getNext();
-        }
-        
-        return current;
-    }
-    
-    public T get(int position) {
-        LinearNode<T> node = this.getNode(position);
-        if (node == null) {
-            return null;
-        }
-        
-        return node.getElement();
-    }
-    
-    public void insert(int position, T element) {
-        LinearNode<T> node = new LinearNode<T>(element);
-        
-        if (position == 0) {
-            node.setNext(front);
-            front = node;
-        } else {
-            LinearNode<T> before = this.getNode(position - 1);
-            node.setNext(before.getNext());
-            before.setNext(node);
-        }
-        
-        this.count++;
-    }
-    
-    public T remove(int position) {
-        LinearNode<T> current;
-        if (position == 0) {
-            current = front;
-            front = front.getNext();
-        } else {
-            LinearNode<T> before = this.getNode(position - 1);
-            current = before.getNext();
-            before.setNext(current.getNext());
-        }  
-        
-        this.count--;
-        return current.getElement();
-    }
-
-    public String toString() {
-        String s = "[ ";
-        
-        LinearNode<T> current = this.front;
-        for (int i = 0; i < this.size(); i++) {
-            s += current.getElement().toString() + ", ";
-            current = current.getNext();
-        }
-        
-        return s + "]";
-    }
-}
-```
-
-Then, answer:
-* Which instance variables/methods are `protected`?
-* Why would we choose to make them `protected` instead of `private` for this assignment?
+Write your tests in a main method in the same file as LinkedQueue<T>. Please save your tests in LinkedQueueTests.txt.
 
 
-<br/>
+Submission Checklist
 
-## Task 1
-
-**Instructions.** Create a class, `SortableLinkedList`, with the following header:
-
-```java
-public class SortableLinkedList<T extends Comparable<T>> extends LinkedList<T> {
-  ...
-}
-```
-
-This is the class in which you will implement your sortable linked list.
-
-**Answer.**
-* What does each part of the syntax in the class header mean?
-* Why do we mention `Comparable<T>` in the class header?
-
-
-
-
-
-<br/>
-
-## Task 2
-
-**Instructions.** Implement a helper method with the following header:
-```java
-private SortableLinkedList<T> split() {
-  ...
-}
-```
-
-This method cuts `this` linked list into two halves.
-The left half should remain in `this`, while the right half should be returned as its own linked list.
-This method should take no more than O(N) time.
-
-**Tests.** After implementing this method, **test it** in the `main` method of the same file.
-You can store the results of all of your testing in `SortableLinkedlistTesting.txt`.
-We highly recommend you **do not** continue without confidence this method words correctly.
-
-
-
-
-<br/>
-
-## Task 3
-
-**Instructions.** Implement a helper method with the following header:
-```java
-private void reverse() {
-  ...
-}
-```
-
-As the name suggests, this method should reverse the order of the nodes in the linked list.
-This method should take no more than O(N) time.
-
-**Hint.** You should be able to do this with a single while loop and without any additional data structures.
-If you wish, you may use a Queue or Stack from the Java API (only using the appropriate methods).
-
-**Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
-We highly recommend you **do not** continue without confidence this method words correctly.
-
-
-
-<br/>
-
-## Task 4
-
-**Instructions.** Implement a helper method with the following header:
-```java
-private void merge(SortableLinkedList<T> right) {
-  ...
-}
-```
-
-This method takes in a second linked list, `right`, and merges into `this` linked list, using merge-sort's merge algorithm.
-This method should take no more than O(N) time.
-
-**Hints.**
-* You may want to create a **new linked list** to contain the merged elements. Then, you can assign its contents to `this`.
-* You should do this **without** any pointer manipulation, only relying on other methods of the linked list.
-* Consider using the helper methods you've already implemented.
-
-**Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
-We highly recommend you **do not** continue without confidence this method words correctly.
-
-
-
-<br/>
-
-## Task 5
-
-**Instructions.** Finally, implement merge sort:
-```java
-public void sort() {
-  ...
-}
-```
-
-**Hint.** Every helper method above you haven't yet used will be helpful here.
-
-**Tests.** Don't forget to test your sorting algorithm!
-For ease of checking your code, you may want to sort something simple, like integers, instead of strings:
-```
-SortableLinkedList<Integer> l = new SortableLinkedList<Integer>();
-l.insert(0, 0);
-...
-```
-
-
-
-<br/>
-
-
-
-# Submission Checklist
-
-* You submitted **all** `.java` files and all `.txt` files.
-* Your files are named **exactly** as in the homework specification, *including file extensions*.
-* You tested **every possible** pathway in your code.
-* You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
-* You wrote javadoc for every function, which includes `@param` and `@return`.
-* You wrote inline comments explaining the logic of your code.
+    You submitted all .java files and all .txt files.
+    Your files are named exactly as in the homework specification, including file extensions.
+    You tested every possible pathway in your code.
+    You signed every class (or file) with @author and @version, accompanied by a description of what the class does.
+    You wrote javadoc for every function, which includes @param and @return.
+    You wrote inline comments explaining the logic of your code.
 
 
 # Homework 7, Part B: While my guitar weeps
