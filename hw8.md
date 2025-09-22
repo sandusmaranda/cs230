@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Homework 8: Who dunn it?!
+# Homework 8, Part A: Who dunn it?!
 
 **Goals:**
 * Learn how to implement HashTables
@@ -184,6 +184,139 @@ In a file called `Answers.txt`, answer:
 * You wrote javadoc for every function, which includes `@param` and `@return`.
 * You wrote inline comments explaining the logic of your code.
 
+# Homework 8, Part B: Tree Recursion
+Learning Goals
+
+    Practice recursive tree algorithms
+
+Tasks
+
+First, create a BlueJ project with the following starter code.
+
+BTNode.java:
+
+import java.util.LinkedList;
+
+public class BTNode<T> {
+    protected T element;
+    protected BTNode<T> left, right;
+
+    public BTNode(T elmt) {
+        element = elmt;
+        left = right = null;
+    }
+
+    public T getElement() { 
+        return element; 
+    }
+
+    public void setElement(T element)
+    { this.element = element; }
+
+    public BTNode<T> getLeft() { 
+        return left; 
+    }
+
+    public void setLeft(BTNode<T> left) { 
+        this.left = left; 
+    }
+
+    public BTNode<T> getRight() { 
+        return right; 
+    }
+
+    public void setRight(BTNode<T> right) {
+        this.right = right; 
+    }
+
+    public BTNode<T> find(T target) {
+        BTNode<T> result = null;
+
+        if (element.equals(target)) {
+            result = this;
+        } else {
+            if (left != null)
+                result = left.find(target);
+            if (result == null && right != null)
+                result = right.find(target);
+        }
+
+        return result;
+    }
+
+    public int count() {
+        int result = 1;
+
+        if (left != null)
+            result = result + left.count();
+
+        if (right != null)
+            result = result + right.count();
+
+        return result;
+    }
+
+BSTNode.java:
+
+public class BSTNode<T extends Comparable<T>> extends BTNode<T> {
+
+    public BSTNode(T element) {
+        super(element);
+    }
+
+    public void add(T item) {
+        if (item.compareTo(element) < 0) {
+            if (left == null)
+                left = new BSTNode(item);
+            else //  Add recursively 
+                ((BSTNode) left).add(item);
+        } else { //  item >= element, go right
+            if (right == null)
+                right = new BSTNode (item);
+            else //  Add recursively 
+                ((BSTNode) right).add (item);
+        }
+    }
+
+    public BSTNode<T> find(T target) {
+        if (target.compareTo(element) == 0)
+            return this;
+            
+        // Since left and right are defined as BTNodes in the parent class,
+        // we cast them to BSTNodes here so we can call compareTo
+        BSTNode<T> l = (BSTNode<T>) left;
+        BSTNode<T> r = (BSTNode<T>) right;
+        
+        if (target.compareTo(element) < 0 && l != null) {
+            return l.find(target);
+        }
+            
+        if (r != null) {
+            return r.find(target);
+        }
+        
+        return null;
+    }
+}
+
+Next, implement the following instance methods:
+
+    Implement public int countLeaves() in the BTNode class. This method should return an integer counting the number of leaves in tree.
+    Implement public int countNodesAtLevel(int level) in the BTNode class. This method should return the number of nodes at a given level in the tree. In this method, we’ll say that level 0 represents the root.
+    Implement public LinkedList<T> collectOnlyChildren() in the BTNode class. This method should return a list of all elements T that belong to nodes that have no siblings.
+    Implement public boolean isValid() in the BSTNode class. This method should return true if the tree is a valid binary search tree.
+
+Please test your code as you go, putting your test in a driver class called Driver.java.
+
+
+Submission Checklist
+
+    You submitted all .java files and all .txt files.
+    Your files are named exactly as in the homework specification, including file extensions.
+    You tested every possible pathway in your code.
+    You signed every class (or file) with @author and @version, accompanied by a description of what the class does.
+    You wrote javadoc for every function, which includes @param and @return.
+    You wrote inline comments explaining the logic of your code.
 
 
 <!--
