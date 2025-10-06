@@ -176,6 +176,7 @@ events:
   - month: "October"
     day: "07"
     day-of-week: "Tuesday"
+    slides: "https://docs.google.com/presentation/d/13b4UvGNlJGYDQJd-n0x0zXFoANW9J5k4/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
     topic: "Stacks"
     due:
     released: "[Homework 5](/cs230/hw5)"
@@ -186,6 +187,7 @@ events:
   - month: "October"
     day: "08"
     day-of-week: "Wednesday"
+    slides: "https://docs.google.com/document/d/1tg-14LT6oqRarrTH-pSDnKhWoml5Ai4AltZFuRAG67k/edit?usp=sharing"
     topic: "Lab 6: Stacks"
     interview: "Polymorphism and IO (part I)"
     released:
@@ -195,6 +197,7 @@ events:
     day: "10"
     day-of-week: "Friday"
     topic: "Linear Nodes and Linked Stacks"
+    slides: "https://docs.google.com/presentation/d/1Sog5FUhnlDa1423xLgEDp2ZyF9tpIR4R/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
     due: "Lab 6 Self-assessment"
     released:
     pre-class: |
