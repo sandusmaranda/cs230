@@ -217,6 +217,7 @@ events:
     day: "15"
     day-of-week: "Wednesday"
     topic: "Lab 7: LinkedLists"
+    slides: "https://docs.google.com/document/d/1-NBYSQKYfTnQIW89ALaH887FGxAvY7hySHaW9kjxFMw/edit?usp=sharing"
     interview: "Polymorphism and IO (part II)"
     due:
     released:
