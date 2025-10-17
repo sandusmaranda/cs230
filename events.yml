@@ -227,6 +227,7 @@ events:
     day: "17"
     day-of-week: "Friday"
     topic: "Catch up"
+    slides: "https://docs.google.com/presentation/d/1VPym6gCCoczmGka03ISmpVLgsQykf3vB2WJY_l3Cj48/edit?slide=id.p#slide=id.p"
     due: "Lab 7 Self-assessment"
     released:
     video:
