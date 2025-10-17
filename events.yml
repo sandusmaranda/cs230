@@ -226,31 +226,26 @@ events:
   - month: "October"
     day: "17"
     day-of-week: "Friday"
-    topic: "Algorithm Analysis"
+    topic: "Catch up"
     due: "Lab 7 Self-assessment"
     released:
-    video: |
-      * [Algorithm Analysis](https://drive.google.com/file/d/1qGwhAo71Xa_laqnx50I3kw_zogAb8XkE/view?usp=drive_link)
-      * [Example](https://drive.google.com/file/d/1L4q9Gk4vQkGw9IPwpU_64xUBALxmJ27C/view?usp=drive_link)
-    pre-class: |
-      * Read [Chapter 12](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 12](https://docs.google.com/forms/d/e/1FAIpQLScEnyW1Xxn5_kig0LeVHgSPJ-rqdMxe1mJcWcX8ZzDBzyAXFg/viewform?usp=sharing&ouid=106178893928220173305)
-
+    video:
+    pre-class: 
+    
   - month: "October"
     day: "21"
     day-of-week: "Tuesday"
-    topic: "Searching and Sorting"
+    topic: "Queues"
     due: "Homework 5 by **10pm**"
-    released: "[Homework 6](/cs230/hw6)"
+    released: "Homework 6"<!--(/cs230/hw6)--!>
     pre-class: |
-      * Read [Chapter 13](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 13](https://docs.google.com/forms/d/e/1FAIpQLScEnyW1Xxn5_kig0LeVHgSPJ-rqdMxe1mJcWcX8ZzDBzyAXFg/viewform?usp=sharing&ouid=106178893928220173305)
-    
+      * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 15](https://forms.gle/PDmDcWaNcTVDeQbU8)
 
   - month: "October"
     day: "22"
     day-of-week: "Wednesday"
-    topic: "Lab 8: Algorithm Analysis and Sorting"
+    topic: "Lab 8: Queues"
     interview: "LinkedLists (part I)"
     released:
     pre-class:
@@ -258,7 +253,7 @@ events:
   - month: "October"
     day: "24"
     day-of-week: "Friday"
-    topic: "Queues"
+    topic: "Algorithm Analysis and Sorting"
     due: "Lab 8 Self-assessment"
     pre-class: |
       * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
@@ -277,7 +272,7 @@ events:
   - month: "October"
     day: "29"
     day-of-week: "Wednesday"
-    topic: "Lab 9: Queues"
+    topic: "Lab 9: Algorithm Analysis"
     interview: "LinkedLists (part II)"
     due:
     released:
@@ -286,7 +281,7 @@ events:
   - month: "October"
     day: "31"
     day-of-week: "Friday"
-    topic: "Hash Tables"
+    topic: "Algorithm Analysis and Sorting"
     due: "Lab 9 Self-assessment"
     released:
     pre-class: |
@@ -314,7 +309,7 @@ events:
   - month: "November"
     day: "07"
     day-of-week: "Friday"
-    topic: "Trees"
+    topic: "Hash Tables"
     due: "Lab 10 Self-assessment"
     released:
     pre-class:  |
@@ -342,7 +337,7 @@ events:
   - month: "November"
     day: "14"
     day-of-week: "Friday"
-    topic: "Graphs"
+    topic: "Trees"
     due: "Lab 11 Self-assessment"
     released:
     pre-class:  |
@@ -352,7 +347,7 @@ events:
   - month: "November"
     day: "18"
     day-of-week: "Tuesday"
-    topic: "Depth First Search"
+    topic: "Graphs"
     due: "Homework 8 by **10pm**"
     released: 
     pre-class: |
@@ -382,7 +377,7 @@ events:
   - month: "November"
     day: "25"
     day-of-week: "Tuesday"
-    topic: "Breadth First Search"
+    topic: "Depth First Search/Breadth First Search"
     due: 
     released:
     pre-class:  |
