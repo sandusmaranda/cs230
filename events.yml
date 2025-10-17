@@ -237,7 +237,7 @@ events:
     day-of-week: "Tuesday"
     topic: "Queues"
     due: "Homework 5 by **10pm**"
-    released: "Homework 6"<!--(/cs230/hw6)--!>
+    released: "Homework 6" 
     pre-class: |
       * Read [Chapter 15](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 15](https://forms.gle/PDmDcWaNcTVDeQbU8)
