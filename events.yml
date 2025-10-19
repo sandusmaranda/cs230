@@ -237,6 +237,7 @@ events:
     day: "21"
     day-of-week: "Tuesday"
     topic: "Queues"
+    slides: "https://docs.google.com/presentation/d/1CoPZ0CTy_OnySen8MTP6t1kYsgTy_TWI/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
     due: "Homework 5 by **10pm**"
     released: "Homework 6" 
     pre-class: |
