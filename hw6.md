@@ -110,7 +110,7 @@ There's no need to test your `DoublyLinearNode<T>`.
 
 In class, on Friday, we worked on answering a set of questions. In this task, we will work on a process of iterative feedback, to get to deeper understanding on these topics as a community. 
 
-1. In these [slides](https://docs.google.com/presentation/d/1VPym6gCCoczmGka03ISmpVLgsQykf3vB2WJY_l3Cj48/edit?slide=id.g38df65b3a91_25_15#slide=id.g38df65b3a91_25_15), find your name and your partner's for this homework - note, there are two slides per group.
+1. In these [slides](https://docs.google.com/presentation/d/1VPym6gCCoczmGka03ISmpVLgsQykf3vB2WJY_l3Cj48/edit?slide=id.g38df65b3a91_25_15#slide=id.g38df65b3a91_25_15), find your group number for this homework - note, there are two slides per group.
 2. Come up with a final answer for the questions assigned to your group by **Friday 10/24 at 5pm**. Make sure to have clear and complete sentences, and appropriate terminology. 
 3. Individually, find the questions you asked, and provide feedback to the answers you received by **Monday 10/27 at 10pm**. Include these as comments in the slides themselves. 
 4. As a group, come up with a final answer to the questions you've been assigned in a new google document, that contains **your name and your partner's name in the title**. Share this google doc with me and submit it to Gradescope by the deadline included in our schedule. 
