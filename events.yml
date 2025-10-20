@@ -248,6 +248,7 @@ events:
     day: "22"
     day-of-week: "Wednesday"
     topic: "Lab 8: Queues"
+    slides: "https://docs.google.com/document/d/1ZXwcE7iewx5n-DhaT9X-Dkp5vr9111jrW85sSSkpTnM/edit?usp=sharing"
     released:
     pre-class:
 
