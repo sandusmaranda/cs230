@@ -16,14 +16,65 @@ A doubly linked list is a linked list in which every node maintains a reference 
 
 ## Task 0: Getting Settled
 
-Copy over the `LinearList<T>` interface from the [in-class exercise](/linked-lists).
-Your linked list should implement this interface.
+Copy over the `List<T>` interface below. Your linked list should implement this interface.
+
+**The List Interface.** 
+
+```java
+public interface List<T> {
+    /**
+     * Checks if the list is empty
+     * 
+     * @return true if the list is empty, false otherwise
+     */
+    public boolean isEmpty();
+    
+    /**
+     * Returns the size of the list
+     * 
+     * @return the size (or length) of the list
+     */
+    public int size();
+
+    /**
+     * Returns the element at the specified position from the list
+     *
+     * @param index of the element in the list
+     * @return the element to be returned
+     */
+    public T get(int position);
+
+    /**
+     * Inserts an element at the given position in the list.
+     * 
+     * @param the index of the element to be added
+     * @param the element to be added
+     */
+    public void insert(int position, T element);
+    
+    /**
+     * Removes the element at the specified position from the list
+     * 
+     * @return the element to be returned
+     */
+    public T remove(int position);
+
+    /**
+     * Generates a String representation of list; 
+     * first element in the representation is the front
+     * 
+     * @return a String representation of the list
+     */
+    public String toString();
+}
+```
+
 
 
 ## Task 1: Doubly Linear Node
 
 Create a class, `DoublyLinearNode<T>`, to represent a node in your linked list.
-You can follow the `LinearNode` from the [in-class exercise](/linked-lists) for inspiration.
+You can follow the `LinearNode` from the class for inspiration.
 
 
 ## Task 2: Implementing the Doubly Linked list
@@ -37,11 +88,13 @@ Additionally, in your implementation, please:
 * Update these references appropriately when inserting/removing.
 * Use the reference to rear for fast get/insertion/removal from the very end of the list (i.e. if someone wants to operate on the last element of the list, they shouldn't have to iterate over the whole list to find it).
 
-**Hints:** For both *insert* and *remove*, you may want to break your code into several cases:
+**Hint:** For both *insert* and *remove*, you may want to break your code into several cases:
 * When the list is empty
 * When removing from a list of size 1
 * When inserting/removing at the front
 * When inserting/removing at the rear
+
+**Hint:** Feel free to throw RuntimeExceptions when anything goes `wrong`, and no need to work in javafoundations for this particular exercise. 
 
 
 ## Task 3: Testing
