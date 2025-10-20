@@ -79,7 +79,7 @@ You can follow the `LinearNode` from the class for inspiration.
 
 ## Task 2: Implementing the Doubly Linked list
 
-Create a class, `DoublyLinkedList<T>` that uses your `DoublyLinearNode<T>` to implement the `LinearList<T>` interface.
+Create a class, `DoublyLinkedList<T>` that uses your `DoublyLinearNode<T>` to implement the `List<T>` interface.
 Before implementing each method, **draw a memory diagram** to make sure you know what pointer manipulations you plan to use.
 You may find it helpful to draw multiple versions of these memory diagrams corresponding to lists of various sizes.
 
