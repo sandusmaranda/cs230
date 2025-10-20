@@ -248,7 +248,6 @@ events:
     day: "22"
     day-of-week: "Wednesday"
     topic: "Lab 8: Queues"
-    interview: "LinkedLists (part I)"
     released:
     pre-class:
 
@@ -275,7 +274,7 @@ events:
     day: "29"
     day-of-week: "Wednesday"
     topic: "Lab 9: Algorithm Analysis"
-    interview: "LinkedLists (part II)"
+    interview: "Queues (part I)"
     due:
     released:
     pre-class:
@@ -304,6 +303,7 @@ events:
     day: "05"
     day-of-week: "Wednesday"
     topic: "Lab 10: Hash Tables"
+    interview: "Queues (part II)"
     due:
     released:
     pre-class:
