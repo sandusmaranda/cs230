@@ -255,7 +255,7 @@ events:
   - month: "October"
     day: "24"
     day-of-week: "Friday"
-    topic: "Algorithm Analysis, Searching, and Sorting"
+    topic: "Algorithm Analysis and Searching"
     slides: "https://drive.google.com/drive/folders/1TcJ-pYfo8GuFwSJN-B610J13rAPazA4o?usp=sharing"
     due: "Lab 8 Self-assessment"
     video: |
@@ -287,8 +287,8 @@ events:
   - month: "October"
     day: "31"
     day-of-week: "Friday"
-    topic: "Algorithm Analysis, Searching, and Sorting"
-    slides: "https://drive.google.com/drive/folders/1TcJ-pYfo8GuFwSJN-B610J13rAPazA4o?usp=sharing"
+    topic: "HashTables"
+    slides: "https://docs.google.com/presentation/d/1ZlP5B-WxlQ9UD-14--_HGEqsYNsPwwuszRC07FYM_00/edit?usp=sharing"
     due: "Lab 9 Self-assessment"
     released:
     pre-class: |
@@ -300,6 +300,7 @@ events:
     day: "04"
     day-of-week: "Tuesday"
     topic: "Hash Tables"
+    slides: "https://docs.google.com/presentation/d/1ZlP5B-WxlQ9UD-14--_HGEqsYNsPwwuszRC07FYM_00/edit?usp=sharing"
     due: "Homework 6 by **10pm**"
     released: "[Homework 7](/cs230/hw7)"
     pre-class:  |
@@ -317,7 +318,8 @@ events:
   - month: "November"
     day: "07"
     day-of-week: "Friday"
-    topic: "Hash Tables"
+    topic: "Sorting"
+    slides: "https://drive.google.com/drive/folders/1TcJ-pYfo8GuFwSJN-B610J13rAPazA4o?usp=sharing"
     due: "Lab 10 Self-assessment"
     released:
     pre-class:  |
