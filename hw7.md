@@ -281,7 +281,7 @@ l.insert(0, 0);
 * You wrote inline comments explaining the logic of your code.
 
 
-
+<!--
 # Homework 7, Part B: Implement a Queue
 
 Here, you will implement a queue using your implementation of the doubly linked list from last week.
@@ -327,7 +327,7 @@ Write your tests in a main method in the same file as LinkedQueue<T>. Please sav
 * You wrote javadoc for every function, which includes @param and @return.
 * You wrote inline comments explaining the logic of your code.
 
-
+--!>
 # Homework 7, Part B: While my guitar weeps
 
 ## Learning Goals
