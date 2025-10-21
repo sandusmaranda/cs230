@@ -255,7 +255,8 @@ events:
   - month: "October"
     day: "24"
     day-of-week: "Friday"
-    topic: "Algorithm Analysis and Sorting"
+    topic: "Algorithm Analysis, Searching, and Sorting"
+    slides: "https://drive.google.com/drive/folders/1TcJ-pYfo8GuFwSJN-B610J13rAPazA4o?usp=sharing"
     due: "Lab 8 Self-assessment"
     video: |
       * [Algorithm Analysis](https://drive.google.com/file/d/1qGwhAo71Xa_laqnx50I3kw_zogAb8XkE/view?usp=drive_link)
@@ -286,7 +287,8 @@ events:
   - month: "October"
     day: "31"
     day-of-week: "Friday"
-    topic: "Algorithm Analysis and Sorting"
+    topic: "Algorithm Analysis, Searching, and Sorting"
+    slides: "https://drive.google.com/drive/folders/1TcJ-pYfo8GuFwSJN-B610J13rAPazA4o?usp=sharing"
     due: "Lab 9 Self-assessment"
     released:
     pre-class: |
