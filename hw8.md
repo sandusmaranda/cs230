@@ -1,188 +1,284 @@
 ---
 layout: default
 ---
+# Homework 7, Part A: Merge-Sorting a Linked List
 
-# Homework 8, Part A: Who dunn it?!
-
-**Goals:**
-* Learn how to implement HashTables
-* Learn two strategies for handling hash collisions
-* Continue practicing the OOP paradigm
-
-
-**Pair Programming:**
-We will assign you a peer to collaborate with on this assignment. Please,
-* Reach out to your partner ASAP to discuss when you will meet to work on the assignment. You will probably have to meet several times.
-* Work *together* (pair programming) rather than splitting the homework and working separately.
-* *Discuss* the ideas and diagrams before diving into coding.
-
-
-**Context:** In the fall of 2024, we, Professors Yacoby and Sandu, embarked on an epic, never-ending saga of rivalry with the world's most cunning nemesis: the west-wing scanner. It all began when it gleefully devoured the students' CS 230 midterms and spewed forth an artistic masterpiece that looked more like a 3D Rorschach tests. Thankfully, Professor Sohie Lee was around to help us turn things around. Watching her work her magic, we learned that the scanner only responds well to scented candles, words of affirmation, and lots (and lots) of encouragement. But what caused the scanner to behave like this?
-
-Enter Professor Turbak, whose tenure in the department dates back to the early 1900s—or so the legend goes. He reminisced about a chilly winter evening in 1982, when the scanner apparently committed "unspeakable things" that still induce dramatic pauses today. His theory? The scanner was hacked!
-
-In an effort to unravel the mystery, we enlisted the expertise of Professors Anderson and VanHattum, who helped us snag the scanner's logs, chronicling every IP address that dared whisper sweet nothings into its circuits. However, we were so traumatized by the scanner's antics that we seemed to have forgotten how to implement all data structures. Now, we desperately need your help.
-
-If the scanner logs from 1982 reveal the same IP address as that fateful night when the midterms turned into modern art, it means our dear scanner wasn't just hacked---it was haunted by the same techno-ghost! Dust off your detective hats, because this is one glitch in the matrix you won't want to miss. Your mission, should you choose to accept it, is to determine if the same IP address was found in both logs.
-
+In this assignment, we will walk you through implementing merge sort for a linked list.
+In addition to the coding problems, we ask you to answer **open-response questions** and submit your answers in a file called `Answers.txt`.
 
 
 <br/>
 
-# Task 0
 
-Create a new BlueJ project called "HashTables." In this project, create a file for the following interface:
+## Task 0: Creating your BlueJ project
 
-`HashTable.java`:
+Create a BlueJ project with the following starter code.
+
+`LinearList.java`:
 ```java
-public interface HashTable<K, V> {
-    /**
-     * Inserts the specified key-value pair into the hash table. 
-     * If the key already exists in the hash table, its value is updated to the specified value.
-     *
-     * @param key   The key with which the specified value is to be associated.
-     * @param value The value to be associated with the specified key.
-     */
-    public void put(K key, V value);
-
-    /**
-     * Returns the value associated with the specified key, or null if the hash table contains no mapping for the key.
-     *
-     * @param key The key whose associated value is to be returned.
-     * @return The value associated with the specified key, or null if the hash table contains no mapping for the key.
-     */
-    public V get(K key);
-
-    /**
-     * Returns the number of key-value mappings in the hash table.
-     *
-     * @return The number of key-value mappings in the hash table.
-     */
-    public int size();
-
-    /**
-     * Returns true if the hash table contains no key-value mappings.
-     *
-     * @return true if the hash table contains no key-value mappings.
-     */
+public interface LinearList<T> {
     public boolean isEmpty();
+    public int size();
+    public T get(int position);
+    public void insert(int position, T element);
+    public T remove(int position);
+    public String toString();
 }
 ```
 
-You will create several Hash Tables that implement this interface. Next, create a file called `Entry.java`, representing a single HashTable entry as follows. This will prove useful in your implementation of the Hash Tables.
-
-`Entry.java`:
+`LinearNode.java`:
 ```java
-/**
- * Represents an entry in the HashTable
- *
- * @author CS 230 Staff
- * @version Fall 2024
- */
-public class Entry<K, V> {
-    private K key;
-    private V value;
+public class LinearNode<T> {
+   private LinearNode<T> next;
+   private T element;
 
-    /**
-     * Constructs an entry with the specified key and value.
-     *
-     * @param key   The key associated with this entry.
-     * @param value The value associated with this key.
-     */
-    public Entry(K key, V value) {
-        this.key = key;
-        this.value = value;
+   public LinearNode() {
+      next = null;
+      element = null;
+   }
+
+   public LinearNode(T elem) {
+      next = null;
+      element = elem;
+   }
+
+   public LinearNode<T> getNext() {
+      return next;
+   }
+
+   public void setNext(LinearNode<T> node) {
+      next = node;
+   }
+
+   public T getElement() {
+      return element;
+   }
+
+   public void setElement(T elem) {
+      element = elem;
+   }
+}
+```
+
+`LinkedList.java`:
+```java
+public class LinkedList<T> implements LinearList<T> {
+    protected LinearNode<T> front;
+    protected int count;
+    
+    public LinkedList() {
+        this.front = null;
+        this.count = 0;
+    }
+    
+    public boolean isEmpty() {
+        return this.count == 0;
+    }
+    
+    public int size() {
+        return this.count;
     }
 
-    /**
-     * Returns the key associated with this entry.
-     *
-     * @return The key associated with this entry.
-     */
-    public K getKey() {
-        return this.key;
+    protected LinearNode<T> getNode(int position) {
+        if (position < 0 || position >= this.count) {
+            throw new RuntimeException(
+                "Asking for element at index " + position 
+                + " in a list of size" + this.count
+            );
+        }
+        
+        LinearNode<T> current = this.front;
+        for (int i = 0; i < position; i++) {
+            current = current.getNext();
+        }
+        
+        return current;
+    }
+    
+    public T get(int position) {
+        LinearNode<T> node = this.getNode(position);
+        if (node == null) {
+            return null;
+        }
+        
+        return node.getElement();
+    }
+    
+    public void insert(int position, T element) {
+        LinearNode<T> node = new LinearNode<T>(element);
+        
+        if (position == 0) {
+            node.setNext(front);
+            front = node;
+        } else {
+            LinearNode<T> before = this.getNode(position - 1);
+            node.setNext(before.getNext());
+            before.setNext(node);
+        }
+        
+        this.count++;
+    }
+    
+    public T remove(int position) {
+        LinearNode<T> current;
+        if (position == 0) {
+            current = front;
+            front = front.getNext();
+        } else {
+            LinearNode<T> before = this.getNode(position - 1);
+            current = before.getNext();
+            before.setNext(current.getNext());
+        }  
+        
+        this.count--;
+        return current.getElement();
     }
 
-    /**
-     * Sets the key for this entry.
-     *
-     * @param key The key to set for this entry.
-     */
-    public void setKey(K key) {
-        this.key = key;
-    }
-
-    /**
-     * Returns the value associated with this entry.
-     *
-     * @return The value associated with this entry.
-     */
-    public V getValue() {
-        return this.value;
-    }
-
-    /**
-     * Sets the value for this entry.
-     *
-     * @param value The value to set for this entry.
-     */
-    public void setValue(V value) {
-        this.value = value;
+    public String toString() {
+        String s = "[ ";
+        
+        LinearNode<T> current = this.front;
+        for (int i = 0; i < this.size(); i++) {
+            s += current.getElement().toString() + ", ";
+            current = current.getNext();
+        }
+        
+        return s + "]";
     }
 }
+```
+
+Then, answer:
+* Which instance variables/methods are `protected`?
+* Why would we choose to make them `protected` instead of `private` for this assignment?
+
+
+<br/>
+
+## Task 1
+
+**Instructions.** Create a class, `SortableLinkedList`, with the following header:
+
+```java
+public class SortableLinkedList<T extends Comparable<T>> extends LinkedList<T> {
+  ...
+}
+```
+
+This is the class in which you will implement your sortable linked list.
+
+**Answer.**
+* What does each part of the syntax in the class header mean?
+* Why do we mention `Comparable<T>` in the class header?
+
+
+
+
+
+<br/>
+
+## Task 2
+
+**Instructions.** Implement a helper method with the following header:
+```java
+private SortableLinkedList<T> split() {
+  ...
+}
+```
+
+This method cuts `this` linked list into two halves.
+The left half should remain in `this`, while the right half should be returned as its own linked list.
+This method should take no more than O(N) time.
+
+**Tests.** After implementing this method, **test it** in the `main` method of the same file.
+You can store the results of all of your testing in `SortableLinkedlistTesting.txt`.
+We highly recommend you **do not** continue without confidence this method words correctly.
+
+
+
+
+<br/>
+
+## Task 3
+
+**Instructions.** Implement a helper method with the following header:
+```java
+private void reverse() {
+  ...
+}
+```
+
+As the name suggests, this method should reverse the order of the nodes in the linked list.
+This method should take no more than O(N) time.
+
+**Hint.** You should be able to do this with a single while loop and without any additional data structures.
+If you wish, you may use a Queue or Stack from the Java API (only using the appropriate methods).
+
+**Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
+We highly recommend you **do not** continue without confidence this method words correctly.
+
+
+
+<br/>
+
+## Task 4
+
+**Instructions.** Implement a helper method with the following header:
+```java
+private void merge(SortableLinkedList<T> right) {
+  ...
+}
+```
+
+This method takes in a second linked list, `right`, and merges into `this` linked list, using merge-sort's merge algorithm.
+This method should take no more than O(N) time.
+
+**Hints.**
+* You may want to create a **new linked list** to contain the merged elements. Then, you can assign its contents to `this`.
+* You should do this **without** any pointer manipulation, only relying on other methods of the linked list.
+* Consider using the helper methods you've already implemented.
+
+**Tests.** As before, after implementing this method, **test it** in the `main` method of the same file.
+We highly recommend you **do not** continue without confidence this method words correctly.
+
+
+
+<br/>
+
+## Task 5
+
+**Instructions.** Finally, implement merge sort:
+```java
+public void sort() {
+  ...
+}
+```
+
+**Hint.** Every helper method above you haven't yet used will be helpful here.
+
+**Tests.** Don't forget to test your sorting algorithm!
+For ease of checking your code, you may want to sort something simple, like integers, instead of strings:
+```
+SortableLinkedList<Integer> l = new SortableLinkedList<Integer>();
+l.insert(0, 0);
+...
 ```
 
 
 
 <br/>
 
-# Task 1
 
-* Create a file called `LinearProbingHashTable.java` and in it, implement a HashTable with linear probing.
-* Since all Java objects extend `Object`, they all inherit a method called `hashCode` that can be used in a hash table. In your HashTable, please use the `hashCode` method of `K` as your has function. Note that this function may return a negative integer, so take the absolute value of the output of the function.
-* At the bottom of the file, create a main method and use it to test your code. We recommend picking `K` to be a `String` when testing. Save the output of your tests in a file called `LinearProbingHashTable.txt` and submit it along with your code.
-
-
-<br/>
-
-# Task 2
-
-* Create a file called `LinkedHashTable.java` and in it, implement a HashTable with separate chaining. For this class, you're welcome to use Java's `LinkedList` class.
-* Add a method `public V remove(K key)` to this implementation that allows one to remove the item associated with the provided `key`. Note that this is not possible to do for a Hash Table with linear probing---can you think of why?
-* As before, create a main method and use it to test your code and save the output of your testing in `LinkedHashTable.txt` to submit it along with your code.
-
-
-<br/>
-
-# Task 3
-
-Now that you have your HashTable ready, you can start your investigation! Implement a driver class called `Detective.java` that:
-* Reads in the log files from [1982](/static_files/hashtables/log-1982.txt) and [2024](/static_files/hashtables/log-2024.txt), containing the lists of IP addresses
-* Uses one of your Hash Table implementations to cross references the IP addresses from 1982 with those from 2024 to find the overlap
-* For the IP address that overlap, your code should report how many times the IP address appears in each log
-
-
-<br/>
-
-# Task 4
-
-In a file called `Answers.txt`, answer:
-1. Which IP address did you find? Is it a valid IP address (you may use Google to help you answer this)? 
-2. How many times did it appear in the 1982 log and in the 2024 log?
-3. If the log from 1982 had `N` lines and the file from 2024 had `M` lines, what's the computational complexity of your algorithm?
-4. And what's the space complexity of your algorithm?
-
-
-<br/>
 
 # Submission Checklist
 
-* You submitted **all** `.java`, `.txt` and `.pdf` files.
+* You submitted **all** `.java` files and all `.txt` files.
 * Your files are named **exactly** as in the homework specification, *including file extensions*.
 * You tested **every possible** pathway in your code.
 * You signed every class (or file) with `@author` and `@version`, accompanied by a description of what the class does.
 * You wrote javadoc for every function, which includes `@param` and `@return`.
 * You wrote inline comments explaining the logic of your code.
+
 
 # Homework 8, Part B: Tree Recursion
 Learning Goals
