@@ -279,6 +279,7 @@ events:
     day: "29"
     day-of-week: "Wednesday"
     topic: "Lab 9: Algorithm Analysis"
+    slides: "https://docs.google.com/document/d/1mL2i6p3o_KK6wt-U3pyLJC9ALTO7fLQFN3WWWOD4Rgs/edit?usp=sharing"
     interview: "Queues (part I)"
     due:
     released:
