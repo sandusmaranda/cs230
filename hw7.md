@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Homework 7, Part A: Who dunn it?!
+# Homework 7: Who dunn it?!
 
 **Goals:**
 * Learn how to implement HashTables
@@ -510,6 +510,7 @@ Write your tests in a main method in the same file as LinkedQueue<T>. Please sav
 * You wrote inline comments explaining the logic of your code.
 
 --!>
+<!--
 # Homework 7, Part B: While my guitar weeps
 
 ## Learning Goals
