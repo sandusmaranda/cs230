@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Homework 8, Part A: Who dunn it?!
+# Homework 7, Part A: Who dunn it?!
 
 **Goals:**
 * Learn how to implement HashTables
@@ -537,6 +537,7 @@ When a guitar string is plucked, the string vibrates and creates sound. These ar
 
  at **N** equally spaced points (in time), where **N** equals the **sampling rate** (44,100) divided by the fundamental frequency (rounding the quotient up to the nearest integer).
 -->
+<!--
 <img src="_images/figs/guitar-samples.png" />
 
 **Plucking the string.** The excitation of the string contains energy at any frequency. We simulate the excitation with <em>white noise</em>:
