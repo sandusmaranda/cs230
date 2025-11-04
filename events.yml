@@ -311,6 +311,7 @@ events:
     day: "05"
     day-of-week: "Wednesday"
     topic: "Lab 10: Hash Tables"
+    slides: "https://docs.google.com/document/d/1pPmQfu8mnyeKjG3d9yZlgf-h3xbriYoEVJg1SXTbFCE/edit?usp=sharing"
     interview: "Queues (part II)"
     due:
     released:
