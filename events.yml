@@ -321,23 +321,23 @@ events:
     day: "07"
     day-of-week: "Friday"
     topic: "Sorting"
-    slides: "https://drive.google.com/drive/folders/1TcJ-pYfo8GuFwSJN-B610J13rAPazA4o?usp=sharing"
+    slides: "https://docs.google.com/presentation/d/1F8g7v66cq0ErUIK5a6DbZlWQHaMQDjHy/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
     due: "Lab 10 Self-assessment"
     released:
-    pre-class:  |
-      * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 16](https://docs.google.com/forms/d/e/1FAIpQLSeXtiCe6dTncvSELeASCrGJu9RJg4cL7K28BANOMHLr8ISIWQ/viewform?usp=sharing&ouid=106178893928220173305)
-
+    pre-class: |
+      * Read [Chapter 13](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 13](https://docs.google.com/forms/d/e/1FAIpQLScEnyW1Xxn5_kig0LeVHgSPJ-rqdMxe1mJcWcX8ZzDBzyAXFg/viewform?usp=sharing&ouid=106178893928220173305)  
+  
   - month: "November"
     day: "11"
     day-of-week: "Tuesday"
     topic: "Trees"
     due: "Homework 7 by **10pm**"
     released: "[Homework 8](/cs230/hw8)"
-    pre-class:  |
-      * Read [Chapters 17](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing). Feel free to skip sections about node removals, and about "rotations."
-      * Answer the quiz on [Chapter 17](https://docs.google.com/forms/d/e/1FAIpQLScLhhINJejKHGdr1QK_HKbVths9DyuTqfQbaC0eUIbb9JdXeQ/viewform?usp=sharing&ouid=106178893928220173305)
-
+    pre-class: |
+      * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 16](https://docs.google.com/forms/d/e/1FAIpQLSeXtiCe6dTncvSELeASCrGJu9RJg4cL7K28BANOMHLr8ISIWQ/viewform?usp=sharing&ouid=106178893928220173305)
+ 
   - month: "November"
     day: "12"
     day-of-week: "Wednesday"
@@ -352,9 +352,9 @@ events:
     topic: "Trees"
     due: "Lab 11 Self-assessment"
     released:
-    pre-class:  |
-      * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
-      * Answer the quiz on [Chapter 19](https://docs.google.com/forms/d/e/1FAIpQLSe0fqu2z1xDz89mijM9HbYxoh5WMqCmokaeveGQIQMoX05o5A/viewform?usp=sharing&ouid=106178893928220173305)
+    pre-class: |
+      * Read [Chapters 17](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing). Feel free to skip sections about node removals, and about "rotations."
+      * Answer the quiz on [Chapter 17](https://docs.google.com/forms/d/e/1FAIpQLScLhhINJejKHGdr1QK_HKbVths9DyuTqfQbaC0eUIbb9JdXeQ/viewform?usp=sharing&ouid=106178893928220173305)
 
   - month: "November"
     day: "18"
@@ -364,6 +364,7 @@ events:
     released: 
     pre-class: |
       * Read [Chapters 19.1-19.5](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      * Answer the quiz on [Chapter 19](https://docs.google.com/forms/d/e/1FAIpQLSe0fqu2z1xDz89mijM9HbYxoh5WMqCmokaeveGQIQMoX05o5A/viewform?usp=sharing&ouid=106178893928220173305)
 
   - month: "November"
     day: "19"
