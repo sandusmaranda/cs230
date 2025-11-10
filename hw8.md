@@ -304,6 +304,7 @@ Use -1 to denote the location of a child that does not exist.
 ### What to submit
 
 Submit to gradescope a single file, `TreeTerminology.pdf`, containing your answers.
+
 <!--
 # Homework 8, Part B: Tree Recursion
 Learning Goals
@@ -439,7 +440,7 @@ Submission Checklist
     You wrote javadoc for every function, which includes @param and @return.
     You wrote inline comments explaining the logic of your code.
 
-
+--!>
 <!--
 # Homework 10, Part A: Hash Tables
 
