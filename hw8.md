@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-# Homework 8, Part A: Merge-Sorting a Linked List
+# Homework 8, Part A: Merge-Sorting a Linked List (paired)
 
 In this assignment, we will walk you through implementing merge sort for a linked list.
 In addition to the coding problems, we ask you to answer **open-response questions** and submit your answers in a file called `Answers.txt`.
 
+For this task, you will choose your own partner!
 
 <br/>
 
@@ -280,6 +281,30 @@ l.insert(0, 0);
 * You wrote inline comments explaining the logic of your code.
 
 
+# Homework 8, Part B: Trees (individual)
+
+## Exercise: Tree Terminology
+
+This exercise tests your understanding of some definitions for trees. Consider the following tree:
+
+<img src="_images/figs/tree.png" />
+
+1. Produce a preorder traversal of this tree.
+2. Produce an inorder traversal of this tree.
+3. Produce a postorder traversal of this tree.
+4. Produce a level-order traversal of this tree.
+5. Draw an array to represent this tree using the computed links implementation strategy.
+6. Draw an array to represent this tree using the stored links implementation strategy. For this question, place the nodes in the array in alphabetical order.
+Use -1 to denote the location of a child that does not exist.
+7. What is the big-O time complexity of the find operation in the LinkedBinaryTree class?
+8. What is the time complexity of the inorder operation in the LinkedBinaryTree class?
+
+
+
+### What to submit
+
+Submit to gradescope a single file, `TreeTerminology.pdf`, containing your answers.
+<!--
 # Homework 8, Part B: Tree Recursion
 Learning Goals
 
@@ -597,29 +622,7 @@ one such words.
 
 <br/>
 
-# Homework 10, Part B: Trees
 
-## Exercise: Tree Terminology
-
-This exercise tests your understanding of some definitions for trees. Consider the following tree:
-
-<img src="_images/figs/tree.png" />
-
-1. Produce a preorder traversal of this tree.
-2. Produce an inorder traversal of this tree.
-3. Produce a postorder traversal of this tree.
-4. Produce a level-order traversal of this tree.
-5. Draw an array to represent this tree using the computed links implementation strategy.
-6. Draw an array to represent this tree using the stored links implementation strategy. For this question, place the nodes in the array in alphabetical order.
-Use -1 to denote the location of a child that does not exist.
-7. What is the big-O time complexity of the find operation in the LinkedBinaryTree class?
-8. What is the time complexity of the inorder operation in the LinkedBinaryTree class?
-
-
-
-### What do submit
-
-Submit to gradescope a single file, `TreeTerminology.pdf`, containing your answers.
 
 -->
 
