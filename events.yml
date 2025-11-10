@@ -343,6 +343,7 @@ events:
     day: "12"
     day-of-week: "Wednesday"
     topic: "Lab 11: Trees"
+    slides: "https://docs.google.com/document/d/1gSmL-aYbE2AwNhYnP_xqCYzg1v5263-n0CPS5EBY80U/edit?usp=sharing"
     interview: "HashTables (part I)"
     released:
     pre-class:
