@@ -332,6 +332,7 @@ events:
     day: "11"
     day-of-week: "Tuesday"
     topic: "Trees"
+    slides: "https://docs.google.com/presentation/d/1Es70PfBSLleMOqSdBy_hOrUokgLvf3d6/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
     due: "Homework 7 by **10pm**"
     released: "[Homework 8](/cs230/hw8)"
     pre-class: |
