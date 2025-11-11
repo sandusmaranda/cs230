@@ -117,7 +117,7 @@ In other words, we strongly discourage from writing code as soon as you read the
 
 **Exams:** There will be two midterms. The midterms will be done on paper during a regular class period, and will not require the use of a compiler. The dates of the exams are listed on the schedule. **Please mark the exam dates in your calendars, as they are not flexible. Moreover, all exams are in-person---we do not allow remote exams.**
 
-**Final Project:** There will be a final project, with a final presentation scheduled during finals period. Our final presentation session will be held in **PNE-127 from 6:00-8:30pm.** <!--**The final presentation will be in-person, at a fixed date and time during the College's exam period, scheduled by the registrar.** -->
+**Final Project:** There will be a final project, with a final presentation scheduled during finals period. Our final presentation session will be held on **Tuesday, December 16th** in **PNE-127 from 6:00-8:30pm.** <!--**The final presentation will be in-person, at a fixed date and time during the College's exam period, scheduled by the registrar.** -->
 
 <br/>
 
