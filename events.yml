@@ -355,9 +355,8 @@ events:
     due: "Lab 11 Self-assessment"
     released:
     pre-class: |
-      * Read [Chapters 17](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing). Feel free to skip sections about node removals, and about "rotations."
-      * Answer the quiz on [Chapter 17](https://docs.google.com/forms/d/e/1FAIpQLScLhhINJejKHGdr1QK_HKbVths9DyuTqfQbaC0eUIbb9JdXeQ/viewform?usp=sharing&ouid=106178893928220173305)
-
+      * Read [Chapters 16.1-16.3](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
+      
   - month: "November"
     day: "18"
     day-of-week: "Tuesday"
