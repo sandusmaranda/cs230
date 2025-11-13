@@ -352,6 +352,7 @@ events:
     day: "14"
     day-of-week: "Friday"
     topic: "Trees"
+    slides: "https://docs.google.com/presentation/d/1p6KI3YudiHCw9O9JLACisxqvGvh-sqtV/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
     due: "Lab 11 Self-assessment"
     released:
     pre-class: |
