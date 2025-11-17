@@ -373,6 +373,7 @@ events:
     day: "19"
     day-of-week: "Wednesday"
     topic: "Lab 12: Graphs"
+    slides: "https://docs.google.com/document/d/1t0g61rg2AuQXHTGivPLXmIXtMrsxf9ws9CKJrmU9dsQ/edit?usp=sharing"
     interview: "HashTables (part II)"
     released:
     pre-class:
