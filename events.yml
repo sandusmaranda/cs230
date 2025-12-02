@@ -423,6 +423,7 @@ events:
     day: "02"
     day-of-week: "Tuesday"
     topic: "Priority Queues and Heaps"
+    slides: "https://docs.google.com/presentation/d/1TKTHtC1HiW0JAD0tThO4lTJUefas1jXY/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
     due:
     released: "[Final Project](/cs230/fp)"
     pre-class:  |
