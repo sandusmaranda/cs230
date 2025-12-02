@@ -425,7 +425,7 @@ events:
     topic: "Priority Queues and Heaps"
     slides: "https://docs.google.com/presentation/d/1TKTHtC1HiW0JAD0tThO4lTJUefas1jXY/edit?usp=sharing&ouid=106178893928220173305&rtpof=true&sd=true"
     due:
-    released: "[Final Project](/cs230/fp)"
+    released: "[Final Project](https://docs.google.com/document/d/1HmujIURWUozFeHsSYI0Zz0ZTU-mgGtKv-2oC3Kn7UbE/edit?usp=sharing)"
     pre-class:  |
       * Read [Chapter 18](https://drive.google.com/file/d/1LXkQ02oQq_woG6oHBlQXyvX2Khq0hH87/view?usp=sharing)
       * Answer the quiz on [Chapter 18](https://docs.google.com/forms/d/e/1FAIpQLSdf3lQL1-5s-KOotQpeypOEQLyX4fAQeUVcfDn5pPE3VHU3fg/viewform?usp=sharing&ouid=106178893928220173305)
