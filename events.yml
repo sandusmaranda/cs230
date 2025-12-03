@@ -433,7 +433,7 @@ events:
   - month: "December"
     day: "03"
     day-of-week: "Wednesday"
-    topic: "Lab 13: Priority Queues and Heaps"
+    topic: "Final Project Work"
     interview: "Graphs (part I)"
     released:
     pre-class:
