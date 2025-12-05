@@ -442,7 +442,6 @@ events:
     day: "05"
     day-of-week: "Friday"
     topic: "Final Project Work"
-    due: "Lab 13 Self-assessment"
     released:
     pre-class:
 
